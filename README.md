@@ -2,6 +2,7 @@
 
 ## Metodologia de solución:
 Aplicar la transformada de LaPlace a toda la ecuación (Termino a termino), de tal manera que se obtenga una ecuación algebraica en el dominio de S.
+
 Despejar la variable que representa la salida de la ecuación.
 Aplicar la trasnformada inversa de LaPalce a la expresión obtenida para obtener la solución en el dominio del tiempo.
 
