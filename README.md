@@ -111,7 +111,8 @@ Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la
 
 $$R=\frac{V}{I}$$
 
-## 6. Figuras
+## Tipos de fricción
+> lds,cs
 Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las figura de las presentaciones**. Para incluir figuras puede seguir los siguientes pasos:
 * Primero escribimos ![]().
 * Después escribimos, dentro de los corchetes, el texto alternativo. Este es opcional y solo entra en acción cuando no se puede cargar la imagen correctamente.
