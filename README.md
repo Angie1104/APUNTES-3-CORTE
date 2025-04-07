@@ -92,6 +92,7 @@ Son un conjunto de elementos que transforman y transmiten movimiento y fuerza. E
 
 ![image](https://github.com/user-attachments/assets/ad06efb5-f9b2-4016-aa4f-6b34a2611a47)
 
+## RESORTES
 
 
 ## 5. Ecuaciones
