@@ -97,6 +97,7 @@ Un resorte es un objeto que puede ser deformado por una fuerza y volver a su for
 
 ![image](https://github.com/user-attachments/assets/faabd921-5d69-4695-9d8a-25eb5a383f60)
 
+La Ley de Hooke se representa como : <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=kx => k(x_{1}-x_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=kx => k(x_{1}-x_{2})" title="F=kx => k(x_{1}-x_{2})" border="0" /></a>
 
 ## 5. Ecuaciones
 Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y final de la ecuación para que la ecuación quede centrada ocupando una línea. Si se quiere que la ecuación quede integrada en el texto debe utilizar la etiqueta '$' al comienzo y final de la ecuación. Las ecuaciones pueden ser editadas utilizando el código LATEX, en el siguiente enlace encuentran un editor de ecuaciones que les genera el código. http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp . Sin embargo hay muchas otras herramientas que pueden utilizar para esto.
