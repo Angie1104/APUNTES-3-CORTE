@@ -92,7 +92,7 @@ Son un conjunto de elementos que transforman y transmiten movimiento y fuerza. E
 
 ![image](https://github.com/user-attachments/assets/ad06efb5-f9b2-4016-aa4f-6b34a2611a47)  
 
-## Resortes
+## 1. Resortes
 Un resorte es un objeto que puede ser deformado por una fuerza y volver a su forma original en la ausencia de esta. Para estos casos se utiliza la Ley de Hooke la cuál nos dice que dentro de ciertos límites, la fuerza requerida para estirar un objeto elástico, como un resorte de metal, es directamente proporcional a la extensión del resorte
 
 ![image](https://github.com/user-attachments/assets/faabd921-5d69-4695-9d8a-25eb5a383f60)  ![image](https://github.com/user-attachments/assets/42342f07-5d69-4067-b190-8313033f2fab)
@@ -101,13 +101,13 @@ Un resorte es un objeto que puede ser deformado por una fuerza y volver a su for
 
 La Ley de Hooke se representa como : <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=kx => k(x_{1}-x_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=kx => k(x_{1}-x_{2})" title="F=kx => k(x_{1}-x_{2})" border="0" /></a>
 
-## Amortiguadores
+## 2. Amortiguadores
 Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la velocidad relativa entre sus extremos o también son aquellos que trabajan por fricción y se representa como: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" title="F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" border="0" /></a> donde "b" es la constante de fricción viscosa
 
 ![image](https://github.com/user-attachments/assets/86f11c8a-0de9-40cc-86e3-30485113d61e)
 
 
-## Tipos de fricción
+## 3. Tipos de fricción
 > *Fricción en seco:*
 Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie lubricada.
 ![image](https://github.com/user-attachments/assets/a8aed297-be9f-4045-a422-78190c1fc11e)
@@ -115,7 +115,7 @@ Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se d
 >*Friccion por rodamiento*: Es la fuerza que se opone al movimiento de un cuerpo que rueda sobre una superficie
 ![image](https://github.com/user-attachments/assets/a92a3e62-eb53-488a-a020-9c7fda001588)
 
-## Sistemas Masa-Resorte-Amortiguador
+## 4. Sistemas Masa-Resorte-Amortiguador
 ![image](https://github.com/user-attachments/assets/e233b653-d166-44a5-9dcf-b778e22d989c)
 
 
