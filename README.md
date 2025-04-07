@@ -114,8 +114,7 @@ $$R=\frac{V}{I}$$
 ## Tipos de fricción
 > *Fricción en seco:*
 Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie lubricada.
-
-![image](https://github.com/user-attachments/assets/468111c8-db68-44cd-9554-198cc2cbafc0)
+![image](https://github.com/user-attachments/assets/ec39c0dd-4182-4743-aa89-a1c43bbab901)
 
 
 💡**Ejemplo 2:**
