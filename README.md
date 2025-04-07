@@ -115,10 +115,9 @@ Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se d
 >*Friccion por rodamiento*: Es la fuerza que se opone al movimiento de un cuerpo que rueda sobre una superficie
 ![image](https://github.com/user-attachments/assets/a92a3e62-eb53-488a-a020-9c7fda001588)
 
+## Sistemas Masa-Resorte-Amortiguador
+![image](https://github.com/user-attachments/assets/e233b653-d166-44a5-9dcf-b778e22d989c)
 
-💡**Ejemplo 2:**
-
-![Figura de prueba](images/plantilla/Captura2.PNG)
 
 Figura 1. Figura de prueba
 
