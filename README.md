@@ -112,7 +112,7 @@ Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la
 $$R=\frac{V}{I}$$
 
 ## Tipos de fricción
-> *Fricción en seco:
+> *Fricción en seco:*
 Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie lubricada.
 
 💡**Ejemplo 2:**
