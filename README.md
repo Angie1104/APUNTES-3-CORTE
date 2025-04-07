@@ -112,6 +112,8 @@ Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la
 Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie lubricada.
 ![image](https://github.com/user-attachments/assets/a8aed297-be9f-4045-a422-78190c1fc11e)
 
+>*Friccion por rodamiento*: Es la fuerza que se opone al movimiento de un cuerpo que rueda sobre una superficie
+![image](https://github.com/user-attachments/assets/a92a3e62-eb53-488a-a020-9c7fda001588)
 
 
 💡**Ejemplo 2:**
