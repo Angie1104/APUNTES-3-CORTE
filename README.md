@@ -115,6 +115,9 @@ $$R=\frac{V}{I}$$
 > *Fricción en seco:*
 Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie lubricada.
 
+![image](https://github.com/user-attachments/assets/468111c8-db68-44cd-9554-198cc2cbafc0)
+
+
 💡**Ejemplo 2:**
 
 ![Figura de prueba](images/plantilla/Captura2.PNG)
