@@ -90,8 +90,8 @@ RESPUESTA:
 # SISTEMAS MECANICOS 
 Son un conjunto de elementos que transforman y transmiten movimiento y fuerza. Están compuestos por componentes físicos como motores, engranes, y mecanismos.
 
-![Texto alternativo](![ChatGPT Image 7 abr 2025, 17_18_35](https://github.com/user-attachments/assets/d524ca0f-af02-437f-9c1b-6020b1576821)
-)
+![image](https://github.com/user-attachments/assets/ad06efb5-f9b2-4016-aa4f-6b34a2611a47)
+
 
 
 ## 5. Ecuaciones
