@@ -17,7 +17,8 @@
 ## 3. Ejemplos
 
 ### 3.1. 
-https://latex.codecogs.com/svg.image?\ddot{x}+3x+2x=0&space;
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \ddot{x}+3x+2x=0 "><img src="http://www.alciro.org/cgi/tex.cgi? \ddot{x}+3x+2x=0 " title=" \ddot{x}+3x+2x=0 " border="0" /></a>
+
 ### 3.2. Numeración de subsecciones
 Siga la numeración de la sección seguida de un punto y luego el número de la subsección.
 
