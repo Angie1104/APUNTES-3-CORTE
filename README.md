@@ -1,8 +1,9 @@
 # SOLUCION DE ECUACIONES DIFERENCIALES 
-El título de cada clase, correspondiente al tema general que se trabaje en clase. Siempre después de cada título de clase, redactar una breve introducción (mínimo un párrafo) que de una mirada general al tema
+
 ## Metodologia de solución:
 Aplicar la transformada de LaPlace a toda la ecuación (Termino a termino), de tal manera que se obtenga una ecuación algebraica en el dominio de S.
-
+Despejar la variable que representa la salida de la ecuación.
+Aplicar la trasnformada inversa de LaPalce a la expresión obtenida para obtener la solución en el dominio del tiempo.
 
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
