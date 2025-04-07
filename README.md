@@ -17,7 +17,7 @@
 ## 3. Ejemplos
 
 ### 3.1. 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x\cdot "><img src="http://www.alciro.org/cgi/tex.cgi?x\cdot " title="x\cdot " border="0" /></a>
+https://latex.codecogs.com/svg.image?\ddot{x}+3x+2x=0&space;
 ### 3.2. Numeración de subsecciones
 Siga la numeración de la sección seguida de un punto y luego el número de la subsección.
 
