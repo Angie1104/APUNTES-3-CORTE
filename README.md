@@ -107,14 +107,11 @@ Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la
 ![image](https://github.com/user-attachments/assets/86f11c8a-0de9-40cc-86e3-30485113d61e)
 
 
-💡**Ejemplo 1:** si se va a representar la ecuación de la ley de Ohm se puede mostrar así $R=\frac{V}{I}$ o también,
-
-$$R=\frac{V}{I}$$
-
 ## Tipos de fricción
 > *Fricción en seco:*
 Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie lubricada.
-![image](https://github.com/user-attachments/assets/ec39c0dd-4182-4743-aa89-a1c43bbab901)
+![image](https://github.com/user-attachments/assets/a8aed297-be9f-4045-a422-78190c1fc11e)
+
 
 
 💡**Ejemplo 2:**
