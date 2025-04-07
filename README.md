@@ -90,7 +90,9 @@ RESPUESTA:
 # SISTEMAS MECANICOS 
 Son un conjunto de elementos que transforman y transmiten movimiento y fuerza. Están compuestos por componentes físicos como motores, engranes, y mecanismos.
 
-![Figura de prueba].(https://sdmntprwestus.oaiusercontent.com/files/00000000-ae0c-6230-bb93-b5edd3c5f500/raw?se=2025-04-07T23%3A12%3A24Z&sp=r&sv=2024-08-04&sr=b&scid=6ef2b7cd-8bed-5f8d-840d-35174e9b8edc&skoid=72d71449-cf2f-4f10-a498-f160460104ee&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-07T21%3A58%3A48Z&ske=2025-04-08T21%3A58%3A48Z&sks=b&skv=2024-08-04&sig=KLhBkTiE/kY09NOeDQ84SmWzXQPVJnd21DDlSOHPrjs%3D)
+![Texto alternativo](![ChatGPT Image 7 abr 2025, 17_18_35](https://github.com/user-attachments/assets/d524ca0f-af02-437f-9c1b-6020b1576821)
+)
+
 
 ## 5. Ecuaciones
 Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y final de la ecuación para que la ecuación quede centrada ocupando una línea. Si se quiere que la ecuación quede integrada en el texto debe utilizar la etiqueta '$' al comienzo y final de la ecuación. Las ecuaciones pueden ser editadas utilizando el código LATEX, en el siguiente enlace encuentran un editor de ecuaciones que les genera el código. http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp . Sin embargo hay muchas otras herramientas que pueden utilizar para esto.
