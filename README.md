@@ -14,10 +14,10 @@
 | x'(t)        | sX(s)-x(0)          |
 | x"(t)        | s^2X(s)-sx(0)-x'(0) |
 
-## 3. Subsecciones
-Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
-### 3.1. Título de subsecciones
-Para la creación de estas subsecciones debe utilizar un tamaño de letra más pequeño, por lo tanto utilice la etiqueta '###' 
+## 3. Ejemplos
+
+### 3.1. 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x\cdot "><img src="http://www.alciro.org/cgi/tex.cgi?x\cdot " title="x\cdot " border="0" /></a>
 ### 3.2. Numeración de subsecciones
 Siga la numeración de la sección seguida de un punto y luego el número de la subsección.
 
