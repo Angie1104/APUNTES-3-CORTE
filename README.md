@@ -112,11 +112,8 @@ Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la
 $$R=\frac{V}{I}$$
 
 ## Tipos de fricción
-> lds,cs
-Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las figura de las presentaciones**. Para incluir figuras puede seguir los siguientes pasos:
-* Primero escribimos ![]().
-* Después escribimos, dentro de los corchetes, el texto alternativo. Este es opcional y solo entra en acción cuando no se puede cargar la imagen correctamente.
-* Después escribimos, dentro de los paréntesis, la ubicación del archivo (ya sea una url o una ubicación dentro de algun folder local). Se recomienda poner las imágenes en una carpeta que se llame imágenes dentro del repositorio github para que no tengan problemas al cargar las imágenes.
+> *Fricción en seco:
+Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie lubricada.
 
 💡**Ejemplo 2:**
 
