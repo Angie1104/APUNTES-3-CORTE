@@ -116,7 +116,10 @@ Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se d
 ![image](https://github.com/user-attachments/assets/a92a3e62-eb53-488a-a020-9c7fda001588)
 
 ## 4. Sistemas Masa-Resorte-Amortiguador
-![image](https://github.com/user-attachments/assets/e233b653-d166-44a5-9dcf-b778e22d989c)
+![image](https://github.com/user-attachments/assets/36b5a84c-964a-4658-b8ab-84f993f0ce58)
+
+![image](https://github.com/user-attachments/assets/c173a626-9e99-4dac-abba-781a7efd66ee)
+
 
 
 Figura 1. Figura de prueba
