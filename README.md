@@ -237,6 +237,19 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T+U= \frac{1}{2}m\dot{x}+\frac{1}{2}Kx^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?T+U= \frac{1}{2}m\dot{x}+\frac{1}{2}Kx^{2}" title="T+U= \frac{1}{2}m\dot{x}+\frac{1}{2}Kx^{2}" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{d}{d(t)}(T+U)=m\dot{x}\bar{x}+kx\dot{x}=(m\bar{x}+kx)\dot{x}=0"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{d}{d(t)}(T+U)=m\dot{x}\bar{x}+kx\dot{x}=(m\bar{x}+kx)\dot{x}=0" title="\frac{d}{d(t)}(T+U)=m\dot{x}\bar{x}+kx\dot{x}=(m\bar{x}+kx)\dot{x}=0" border="0" /></a>
+
+## 5. Conversioón movimiento traslacional-rotacional 
+### Casos Frecuentes
+
+* Tornillo sinfin
+![image](https://github.com/user-attachments/assets/c52b7a11-93b2-44d8-b4f4-1ae3222e9552)
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=J= \frac{w}{g}(\frac{L}{2\pi })^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?J= \frac{w}{g}(\frac{L}{2\pi })^{2}" title="J= \frac{w}{g}(\frac{L}{2\pi })^{2}" border="0" /></a>
+
+* Banda de poleas
+![image](https://github.com/user-attachments/assets/d9a315d5-1209-40c6-90c2-bf5d4ae4d7bc)
+
+
 ```
 var sumar2 = function(numero) {
   return numero + 2;
