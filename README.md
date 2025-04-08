@@ -181,7 +181,7 @@ Para este tipo de movimientos aplicamos las leyes comparables al movimiento line
 # TRABAJO
 Es la energía transferida por una fuerza que actúa sobre un objeto mientras este se desplaza y se representa por medio de: 
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=W= Fx"><img src="http://www.alciro.org/cgi/tex.cgi?W= Fx" title="W= Fx" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= w=Fx"><img src="http://www.alciro.org/cgi/tex.cgi? w=Fx" title=" w=Fx" border="0" /></a>
 
 ```
 var sumar2 = function(numero) {
