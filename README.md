@@ -2,11 +2,11 @@
 # SOLUCION DE ECUACIONES DIFERENCIALES 
 
 ## Metodologia de solución:
-*Aplicar la transformada de LaPlace a toda la ecuación (Termino a termino), de tal manera que se obtenga una ecuación algebraica en el dominio de S.
+* Aplicar la transformada de LaPlace a toda la ecuación (Termino a termino), de tal manera que se obtenga una ecuación algebraica en el dominio de S.
 
-*Despejar la variable que representa la salida de la ecuación.
+* Despejar la variable que representa la salida de la ecuación.
 
-*Aplicar la trasnformada inversa de LaPalce a la expresión obtenida para obtener la solución en el dominio del tiempo.
+* Aplicar la trasnformada inversa de LaPalce a la expresión obtenida para obtener la solución en el dominio del tiempo.
 
 ## 2. Tabla de las derivadas de LaPlace en el tiempo
 | En el tiempo | En LaPlace          |
@@ -119,11 +119,11 @@ Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se d
 ## 4. Sistemas Masa-Resorte-Amortiguador
 Para estos modelos utilizamos: 
 
-Ley de Hooke: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=FR= K_{2}*X"><img src="http://www.alciro.org/cgi/tex.cgi?FR= K_{2}*X" title="FR= K_{2}*X" border="0" /></a>
+* Ley de Hooke: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=FR= K_{2}*X"><img src="http://www.alciro.org/cgi/tex.cgi?FR= K_{2}*X" title="FR= K_{2}*X" border="0" /></a>
 
-Fricción viscosa: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Ff= K_{1}Vm"><img src="http://www.alciro.org/cgi/tex.cgi?Ff= K_{1}Vm" title="Ff= K_{1}Vm" border="0" /></a>
+* Fricción viscosa: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Ff= K_{1}Vm"><img src="http://www.alciro.org/cgi/tex.cgi?Ff= K_{1}Vm" title="Ff= K_{1}Vm" border="0" /></a>
 
-Leyes de Newton= <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F= m*a"><img src="http://www.alciro.org/cgi/tex.cgi?F= m*a" title="F= m*a" border="0" /></a>
+* Leyes de Newton= <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F= m*a"><img src="http://www.alciro.org/cgi/tex.cgi?F= m*a" title="F= m*a" border="0" /></a>
 
 ### Ejemplo
 
@@ -176,7 +176,7 @@ Para este tipo de movimientos aplicamos las leyes comparables al movimiento line
 
 * <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\varphi "><img src="http://www.alciro.org/cgi/tex.cgi?\varphi " title="\varphi " border="0" /></a> ( <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \frac{d\varphi }{dt}"><img src="http://www.alciro.org/cgi/tex.cgi? \frac{d\varphi }{dt}" title=" \frac{d\varphi }{dt}" border="0" /></a> es la velocidad angular)
 
-* <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T= J*\frac{d\varphi^{2}}{dt^{2}}"><img src="http://www.alciro.org/cgi/tex.cgi?T= J*\frac{d\varphi^{2}}{dt^{2}}" title="T= J*\frac{d\varphi^{2}}{dt^{2}}" border="0" /></a>
+* <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T= J*\frac{d\varphi^{2}}{dt^{2}}"><img src="http://www.alciro.org/cgi/tex.cgi?T= J*\frac{d\varphi^{2}}{dt^{2}}" title="T= J*\frac{d\varphi^{2}}{dt^{2}}" border="0" /></a> ( <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=J"><img src="http://www.alciro.org/cgi/tex.cgi?J" title="J" border="0" /></a> es el momento de incercia)
 
 💡**Ejemplo 4:**
 ```
