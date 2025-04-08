@@ -205,10 +205,16 @@ Un cambio en la energía cinetica es el trabajo realizado sobre una masa por la 
 
 * Rotacional: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq==\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?=\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}" title="=\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}" border="0" /></a> 
 
-## POTENCIA 
-La realización de trabajo que varia con respecto al tiempo
+## 3. Potencia 
+La potencia es la realización de trabajo que varia con respecto al tiempo
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}" title="P= \frac{dw}{dt}" border="0" /></a>
+### 3.1 Potencia en un resorte
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}" title="P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}" border="0" /></a>
+
+* Sabemos que <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U= \frac{1}{2}kx^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?U= \frac{1}{2}kx^{2}" title="U= \frac{1}{2}kx^{2}" border="0" /></a>  podemos reemplazarla en la ecuación anterior
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= Kx\dot{x}=\dot{U}"><img src="http://www.alciro.org/cgi/tex.cgi?P= Kx\dot{x}=\dot{U}" title="P= Kx\dot{x}=\dot{U}" border="0" /></a>
 
 ```
 var sumar2 = function(numero) {
