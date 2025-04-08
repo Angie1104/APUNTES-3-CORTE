@@ -203,7 +203,7 @@ Un cambio en la energía cinetica es el trabajo realizado sobre una masa por la 
 
 * Lineal: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq==\frac{1}{2}mv_{2}^{2}-\frac{1}{2}mv_{1}^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?=\frac{1}{2}mv_{2}^{2}-\frac{1}{2}mv_{1}^{2}" title="=\frac{1}{2}mv_{2}^{2}-\frac{1}{2}mv_{1}^{2}" border="0" /></a>
 
-* Rotacional:  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq==\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?=\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}" title="=\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}" border="0" /></a>
+* Rotacional: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq==\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?=\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}" title="=\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}" border="0" /></a> 
 
 ```
 var sumar2 = function(numero) {
