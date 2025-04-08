@@ -171,7 +171,7 @@ Es un fenomeno mecanico pero la naturalez del movimiento cambia y ahora pasa a s
 
 ![image](https://github.com/user-attachments/assets/5d9d39ef-18e3-4cfa-8383-7e5518cbb1a0)
 
-Teniendo en cuenta que el curso requiere del desarrollo de código matlab, c, c++ u otro. Si requiere incluir pequeños segmentos de código en los apuntes hágalos de la siguiente manera:
+
 
 💡**Ejemplo 4:**
 ```
