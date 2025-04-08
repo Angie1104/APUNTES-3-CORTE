@@ -205,6 +205,11 @@ Un cambio en la energía cinetica es el trabajo realizado sobre una masa por la 
 
 * Rotacional: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq==\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?=\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}" title="=\frac{1}{2}J\theta _{2}^{2}-\frac{1}{2}J\theta _{1}^{2}" border="0" /></a> 
 
+## POTENCIA 
+La realización de trabajo que varia con respecto al tiempo
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}" title="P= \frac{dw}{dt}" border="0" /></a>
+
 ```
 var sumar2 = function(numero) {
   return numero + 2;
