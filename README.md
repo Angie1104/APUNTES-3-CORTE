@@ -197,6 +197,9 @@ Solamente los elementos de inercia pueden almacenar energía cinetica
 
 * Movimiento rotacional: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T=\frac{1}{2}J\theta ^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?T=\frac{1}{2}J\theta ^{2}" title="T=\frac{1}{2}J\theta ^{2}" border="0" /></a>
 
+Un cambio en la energía cinetica es el trabajo realizado sobre una masa por la aplicación de una fuerza que acelera o desacelera
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \Delta (T)=\Delta w=\int_{x{1}}^{x{2}}Fdx=\int_{x{1}}^{x{2}} F\frac{dx}{dt}dt"><img src="http://www.alciro.org/cgi/tex.cgi? \Delta (T)=\Delta w=\int_{x{1}}^{x{2}}Fdx=\int_{x{1}}^{x{2}} F\frac{dx}{dt}dt" title=" \Delta (T)=\Delta w=\int_{x{1}}^{x{2}}Fdx=\int_{x{1}}^{x{2}} F\frac{dx}{dt}dt" border="0" /></a>
+
 ```
 var sumar2 = function(numero) {
   return numero + 2;
