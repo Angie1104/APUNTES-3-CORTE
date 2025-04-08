@@ -212,9 +212,14 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 ### 3.1 Potencia en un resorte
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}" title="P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}" border="0" /></a>
 
-* Sabemos que <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U= \frac{1}{2}kx^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?U= \frac{1}{2}kx^{2}" title="U= \frac{1}{2}kx^{2}" border="0" /></a>  podemos reemplazarla en la ecuación anterior
+* Sabemos que <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U= \frac{1}{2}kx^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?U= \frac{1}{2}kx^{2}" title="U= \frac{1}{2}kx^{2}" border="0" /></a>  podemos reemplazarla
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= Kx\dot{x}=\dot{U}"><img src="http://www.alciro.org/cgi/tex.cgi?P= Kx\dot{x}=\dot{U}" title="P= Kx\dot{x}=\dot{U}" border="0" /></a>
+### 3.2 Potencia en una masa
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= m\bar{x}\dot{x}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= m\bar{x}\dot{x}" title="P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= m\bar{x}\dot{x}" border="0" /></a>
+* Sabemos que <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T= \frac{1}{2}mv^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?T= \frac{1}{2}mv^{2}" title="T= \frac{1}{2}mv^{2}" border="0" /></a> podemos reemplazar
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= m\bar{x}\dot{x}= m\dot{v}v= T"><img src="http://www.alciro.org/cgi/tex.cgi?P= m\bar{x}\dot{x}= m\dot{v}v= T" title="P= m\bar{x}\dot{x}= m\dot{v}v= T" border="0" /></a>  
 
 ```
 var sumar2 = function(numero) {
