@@ -179,10 +179,23 @@ Para este tipo de movimientos aplicamos las leyes comparables al movimiento line
 * <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T= J*\frac{d\varphi^{2}}{dt^{2}}"><img src="http://www.alciro.org/cgi/tex.cgi?T= J*\frac{d\varphi^{2}}{dt^{2}}" title="T= J*\frac{d\varphi^{2}}{dt^{2}}" border="0" /></a> ( <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=J"><img src="http://www.alciro.org/cgi/tex.cgi?J" title="J" border="0" /></a> es el momento de incercia)
 
 # TRABAJO, ENERGÍA Y POTENCIA
-## Trabajo
+## 1. Trabajo
 Es la energía transferida por una fuerza que actúa sobre un objeto mientras este se desplaza y se representa por medio de: 
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= w=Fx"><img src="http://www.alciro.org/cgi/tex.cgi? w=Fx" title=" w=Fx" border="0" /></a>
+## 2. Energía 
+Capacidad para realizar fuerza y trabajo.
+### 2.1 Energía  Potencial
+En los sistemas mecanicos la energía cambia de acuerdo a su posición, los resortes y las masas alamcenas energía potencial la cuál es equivalente al trabajo realizado por la fuerza exterma.
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=u=\int_{a}^{b}mgdx= mgh"><img src="http://www.alciro.org/cgi/tex.cgi?u=\int_{a}^{b}mgdx= mgh" title="u=\int_{a}^{b}mgdx= mgh" border="0" /></a>
+
+### 2.2 Energía Cinetica
+Solamente los elementos de inercia pueden almacenar energía cinetica
+
+* Movimiento lineal: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T= \frac{1}{2} mv^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?T= \frac{1}{2} mv^{2}" title="T= \frac{1}{2} mv^{2}" border="0" /></a>
+
+* Movimiento rotacional: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T=\frac{1}{2}J\theta ^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?T=\frac{1}{2}J\theta ^{2}" title="T=\frac{1}{2}J\theta ^{2}" border="0" /></a>
 
 ```
 var sumar2 = function(numero) {
