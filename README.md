@@ -201,6 +201,7 @@ Un cambio en la energía cinetica es el trabajo realizado sobre una masa por la 
 
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \Delta (T)=\Delta (w)=\int_{x{1}}^{x{2}}Fdx=\int_{x{1}}^{x{2}} F\frac{dx}{dt}dt"><img src="http://www.alciro.org/cgi/tex.cgi? \Delta (T)=\Delta (w)=\int_{x{1}}^{x{2}}Fdx=\int_{x{1}}^{x{2}} F\frac{dx}{dt}dt" title=" \Delta (T)=\Delta (w)=\int_{x{1}}^{x{2}}Fdx=\int_{x{1}}^{x{2}} F\frac{dx}{dt}dt" border="0" /></a>
 
+Lineal: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq==\frac{1}{2}mv_{2}^{2}-\frac{1}{2}mv_{1}^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?=\frac{1}{2}mv_{2}^{2}-\frac{1}{2}mv_{1}^{2}" title="=\frac{1}{2}mv_{2}^{2}-\frac{1}{2}mv_{1}^{2}" border="0" /></a>
 ```
 var sumar2 = function(numero) {
   return numero + 2;
