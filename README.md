@@ -151,9 +151,9 @@ Para este ejemplo hay que tener en cuenta que la distancia de la enlongación de
 
 ![image](https://github.com/user-attachments/assets/a5cfa9ca-585a-4fa7-a2ab-a6b10568b360)
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U-FR1-FR2-Ff= m_{1}*a_{1}"><img src="http://www.alciro.org/cgi/tex.cgi?U-FR1-FR2-Ff= m_{1}*a_{1}" title="U-FR1-FR2-Ff= m_{1}*a_{1}" border="0" /></a>
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U-FR1-FR2-Ff= m_{1}*a_{1}"><img src="http://www.alciro.org/cgi/tex.cgi?U-FR1-FR2-Ff= m_{1}*a_{1}" title="U-FR1-FR2-Ff= m_{1}*a_{1}"border="0" /></a>
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U(t)-K1*X_{1}(t)- K2*(X_{1}(t)-X_{2}(t))-\frac{b*d(X_{1}(t)-X_{2}(t))}{dt}= m1*\frac{d^2X_{1}(t)}{dt^2}"><img src="http://www.alciro.org/cgi/tex.cgi?U(t)-K1*X_{1}(t)- K2*(X_{1}(t)-X_{2}(t))-\frac{b*d(X_{1}(t)-X_{2}(t))}{dt}= m1*\frac{d^2X_{1}(t)}{dt^2}" title="U(t)-K1*X_{1}(t)- K2*(X_{1}(t)-X_{2}(t))-\frac{b*d(X_{1}(t)-X_{2}(t))}{dt}= m1*\frac{d^2X_{1}(t)}{dt^2}" border="0" /></a>
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U(t)-K1*X_{1}(t)- K2*(X_{1}(t)-X_{2}(t))-\frac{b*d(X_{1}(t)-X_{2}(t))}{dt}= m1*\frac{d^2X_{1}(t)}{dt^2}"><imgsrc="http://www.alciro.org/cgi/tex.cgi?U(t)-K1*X_{1}(t)- K2*(X_{1}(t)-X_{2}(t))-\frac{b*d(X_{1}(t)-X_{2}(t))}{dt}= m1*\frac{d^2X_{1}(t)}{dt^2}" title="U(t)-K1*X_{1}(t)- K2*(X_{1}(t)-X_{2}(t))-\frac{b*d(X_{1}(t)-X_{2}(t))}{dt}= m1*\frac{d^2X_{1}(t)}{dt^2}" border="0" /></a>
 
 
 💡**Ejemplo 3:** 
