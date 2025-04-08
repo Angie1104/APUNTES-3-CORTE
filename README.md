@@ -225,7 +225,13 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{X}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{X}" title="P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{X}" border="0" /></a>
 * Sabemos que <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F= b\dot{X}"><img src="http://www.alciro.org/cgi/tex.cgi?F= b\dot{X}" title="F= b\dot{X}" border="0" /></a> podemos reemplazar
 
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= b\dot{x}^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?P= b\dot{x}^{2}" title="P= b\dot{x}^{2}" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= b\dot{x}^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?P= b\dot{x}^{2}" title="P= b\dot{x}^{2}" border="0" /></a>
+
+## 4. Sistema Conservativo
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta(T+U)= \Delta (w)"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta(T+U)= \Delta (w)" title="\Delta(T+U)= \Delta (w)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta(T+U)= 0"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta(T+U)= 0" title="\Delta(T+U)= 0" border="0" /></a> (T+U seran constantes)
+
 ```
 var sumar2 = function(numero) {
   return numero + 2;
