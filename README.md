@@ -162,6 +162,8 @@ MASA 2:
 
 ![image](https://github.com/user-attachments/assets/c2b5b66e-e713-4e36-a002-bebd42569344)
 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=FR2+Ff-FR3= m2*am2"><img src="http://www.alciro.org/cgi/tex.cgi?FR2+Ff-FR3= m2*am2" title="FR2+Ff-FR3= m2*am2" border="0" /></a>
+
 
 
 💡**Ejemplo 3:** 
