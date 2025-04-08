@@ -210,7 +210,7 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}" title="P= \frac{dw}{dt}" border="0" /></a>
 ### 3.1 Potencia en un resorte
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}" title="P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}" border="0" /></a>
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}" title="P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{x}= kx\dot{x}" border="0" /></a>
 
 * Sabemos que <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U= \frac{1}{2}kx^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?U= \frac{1}{2}kx^{2}" title="U= \frac{1}{2}kx^{2}" border="0" /></a>  podemos reemplazarla
 
