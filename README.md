@@ -221,6 +221,11 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= m\bar{x}\dot{x}= m\dot{v}v= T"><img src="http://www.alciro.org/cgi/tex.cgi?P= m\bar{x}\dot{x}= m\dot{v}v= T" title="P= m\bar{x}\dot{x}= m\dot{v}v= T" border="0" /></a>  
 
+### 3.3 Potencia disipada en un amortiguador
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{X}"><img src="http://www.alciro.org/cgi/tex.cgi?P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{X}" title="P= \frac{dw}{dt}= \frac{Fdx}{dt}= F\dot{X}" border="0" /></a>
+* Sabemos que <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F= b\dot{X}"><img src="http://www.alciro.org/cgi/tex.cgi?F= b\dot{X}" title="F= b\dot{X}" border="0" /></a> podemos reemplazar
+
+  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P= b\dot{x}^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?P= b\dot{x}^{2}" title="P= b\dot{x}^{2}" border="0" /></a>
 ```
 var sumar2 = function(numero) {
   return numero + 2;
