@@ -235,6 +235,8 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 ![image](https://github.com/user-attachments/assets/3a612bcf-1f06-4e32-950d-06d0a4fe81c9)
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T+U= \frac{1}{2}m\dot{x}+\frac{1}{2}Kx^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?T+U= \frac{1}{2}m\dot{x}+\frac{1}{2}Kx^{2}" title="T+U= \frac{1}{2}m\dot{x}+\frac{1}{2}Kx^{2}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{d}{d(t)}(T+U)=m\dot{x}\bar{x}+kx\dot{x}=(m\bar{x}+kx)\dot{x}=0"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{d}{d(t)}(T+U)=m\dot{x}\bar{x}+kx\dot{x}=(m\bar{x}+kx)\dot{x}=0" title="\frac{d}{d(t)}(T+U)=m\dot{x}\bar{x}+kx\dot{x}=(m\bar{x}+kx)\dot{x}=0" border="0" /></a>
 ```
 var sumar2 = function(numero) {
   return numero + 2;
