@@ -116,6 +116,16 @@ Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se d
 ![image](https://github.com/user-attachments/assets/a92a3e62-eb53-488a-a020-9c7fda001588)
 
 ## 4. Sistemas Masa-Resorte-Amortiguador
+Para estos modelos utilizamos: 
+
+Ley de Hooke: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=FR= K_{2}*X"><img src="http://www.alciro.org/cgi/tex.cgi?FR= K_{2}*X" title="FR= K_{2}*X" border="0" /></a>
+
+Fricción viscosa: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Ff= K_{1}Vm"><img src="http://www.alciro.org/cgi/tex.cgi?Ff= K_{1}Vm" title="Ff= K_{1}Vm" border="0" /></a>
+
+Leyes de Newton= <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F= m*a"><img src="http://www.alciro.org/cgi/tex.cgi?F= m*a" title="F= m*a" border="0" /></a>
+
+### Ejemplo
+
 ![image](https://github.com/user-attachments/assets/36b5a84c-964a-4658-b8ab-84f993f0ce58)
 
 ![image](https://github.com/user-attachments/assets/c173a626-9e99-4dac-abba-781a7efd66ee)
