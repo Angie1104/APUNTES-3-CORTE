@@ -176,6 +176,8 @@ Para este tipo de movimientos aplicamos las leyes comparables al movimiento line
 
 * <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\varphi "><img src="http://www.alciro.org/cgi/tex.cgi?\varphi " title="\varphi " border="0" /></a> ( <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \frac{d\varphi }{dt}"><img src="http://www.alciro.org/cgi/tex.cgi? \frac{d\varphi }{dt}" title=" \frac{d\varphi }{dt}" border="0" /></a> es la velocidad angular)
 
+* <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T= J*\frac{d\varphi^2}{dt^2}"><img src="http://www.alciro.org/cgi/tex.cgi?T= J*\frac{d\varphi^2}{dt^2}" title="T= J*\frac{d\varphi^2}{dt^2}" border="0" /></a> ( <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=J"><img src="http://www.alciro.org/cgi/tex.cgi?J" title="J" border="0" /></a> es el momento de inercia )
+
 💡**Ejemplo 4:**
 ```
 var sumar2 = function(numero) {
