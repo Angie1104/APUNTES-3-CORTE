@@ -147,7 +147,7 @@ Leyes de Newton= <a href="http://www.alciro.org/tools/matematicas/editor-ecuacio
 # SISTEMAS ACOPLADOS
 ![image](https://github.com/user-attachments/assets/7f725a87-a5f6-47b9-b37a-687dfb7cbc24)
 
-Para este ejemplo hay que tener en cuenta que la distancia de la enlongación del resorte 2 depende del movimiento de ambas masas
+Para este ejemplo hay que tener en cuenta que la distancia de la enlongación del resorte 2 depende del movimiento de ambas masas, para esto tenemos que hacer dos diagramas de cuerpo libre para cada masa.
 
 💡**Ejemplo 3:** 
 
