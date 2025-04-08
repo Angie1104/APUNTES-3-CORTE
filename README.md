@@ -242,14 +242,16 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 ### Casos Frecuentes
 
 * Tornillo sinfin
+
 ![image](https://github.com/user-attachments/assets/c52b7a11-93b2-44d8-b4f4-1ae3222e9552)
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=J= \frac{w}{g}(\frac{L}{2\pi })^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?J= \frac{w}{g}(\frac{L}{2\pi })^{2}" title="J= \frac{w}{g}(\frac{L}{2\pi })^{2}" border="0" /></a>
 
 * Banda de poleas
+
 ![image](https://github.com/user-attachments/assets/d9a315d5-1209-40c6-90c2-bf5d4ae4d7bc)
 
-
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=J= Mr^{2}=\frac{w}{g}*r^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?J= Mr^{2}=\frac{w}{g}*r^{2}" title="J= Mr^{2}=\frac{w}{g}*r^{2}" border="0" /></a>
 ```
 var sumar2 = function(numero) {
   return numero + 2;
