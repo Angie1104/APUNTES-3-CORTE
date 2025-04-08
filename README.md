@@ -130,7 +130,9 @@ Leyes de Newton= <a href="http://www.alciro.org/tools/matematicas/editor-ecuacio
 
 ![image](https://github.com/user-attachments/assets/c173a626-9e99-4dac-abba-781a7efd66ee)
 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U-FR-Ff= m*a"><img src="http://www.alciro.org/cgi/tex.cgi?U-FR-Ff= m*a" title="U-FR-Ff= m*a" border="0" /></a>
 
+FR podemos reemplazarla en la ecuación por <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=K_{2}*y(t)"><img src="http://www.alciro.org/cgi/tex.cgi?K_{2}*y(t)" title="K_{2}*y(t)" border="0" /></a>
 
 Figura 1. Figura de prueba
 
