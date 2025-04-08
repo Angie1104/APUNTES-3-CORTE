@@ -150,6 +150,8 @@ Leyes de Newton= <a href="http://www.alciro.org/tools/matematicas/editor-ecuacio
 
 Para este ejemplo hay que tener en cuenta que la distancia de la enlongación del resorte 2 depende del movimiento de ambas masas, para esto tenemos que hacer dos diagramas de cuerpo libre uno para cada masa.
 
+MASA 1:
+
 ![image](https://github.com/user-attachments/assets/a5cfa9ca-585a-4fa7-a2ab-a6b10568b360)
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U-FR1-FR2-Ff= m1*am1"><img src="http://www.alciro.org/cgi/tex.cgi?U-FR1-FR2-Ff= m1*am1" title="U-FR1-FR2-Ff= m1*am1" border="0" /></a>
