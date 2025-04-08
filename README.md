@@ -171,6 +171,9 @@ Es un fenomeno mecanico pero la naturalez del movimiento cambia y ahora pasa a s
 
 ![image](https://github.com/user-attachments/assets/5d9d39ef-18e3-4cfa-8383-7e5518cbb1a0)
 
+Para este tipo de movimientos aplicamos las leyes comparables al movimiento lineal:
+* <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=FR= K*\varphi "><img src="http://www.alciro.org/cgi/tex.cgi?FR= K*\varphi " title="FR= K*\varphi " border="0" /></a> ( <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\varphi "><img src="http://www.alciro.org/cgi/tex.cgi?\varphi " title="\varphi " border="0" /></a> es el angulo de tensión)
+
 
 
 💡**Ejemplo 4:**
