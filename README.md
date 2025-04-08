@@ -231,6 +231,9 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta(T+U)= \Delta (w)"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta(T+U)= \Delta (w)" title="\Delta(T+U)= \Delta (w)" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta(T+U)= 0"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta(T+U)= 0" title="\Delta(T+U)= 0" border="0" /></a> (T+U seran constantes)
+### Ej
+
+![image](https://github.com/user-attachments/assets/34fb09b3-cdc1-48f4-9b9c-72802fd2341f)
 
 ```
 var sumar2 = function(numero) {
