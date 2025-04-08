@@ -166,7 +166,11 @@ MASA 2:
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=K2*(X_{1}(t)-X_{2}(t))+b*\frac{d(X_{1}(t)-X_{2}(t))}{dt}-K3*X_{2}(t)= m2*\frac{d^2X_{2(t)}}{dt^2}"><img src="http://www.alciro.org/cgi/tex.cgi?K2*(X_{1}(t)-X_{2}(t))+b*\frac{d(X_{1}(t)-X_{2}(t))}{dt}-K3*X_{2}(t)= m2*\frac{d^2X_{2(t)}}{dt^2}" title="K2*(X_{1}(t)-X_{2}(t))+b*\frac{d(X_{1}(t)-X_{2}(t))}{dt}-K3*X_{2}(t)= m2*\frac{d^2X_{2(t)}}{dt^2}" border="0" /></a>
 
-## 8. Código
+# SISTEMA ROTACIONAL
+Es un fenomeno mecanico pero la naturalez del movimiento cambia y ahora pasa a ser movimiento angular.
+
+![image](https://github.com/user-attachments/assets/5d9d39ef-18e3-4cfa-8383-7e5518cbb1a0)
+
 Teniendo en cuenta que el curso requiere del desarrollo de código matlab, c, c++ u otro. Si requiere incluir pequeños segmentos de código en los apuntes hágalos de la siguiente manera:
 
 💡**Ejemplo 4:**
