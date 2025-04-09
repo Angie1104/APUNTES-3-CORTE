@@ -320,6 +320,8 @@ title('Respuesta a señal cuadrada de 5 Hz y 5V');
 grid on;
 
 ```
+![image](https://github.com/user-attachments/assets/3189e7d4-5785-416b-a65a-52c8b0eb2379)
+
 
 ## 9. Ejercicios
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
