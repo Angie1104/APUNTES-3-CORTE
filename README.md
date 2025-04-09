@@ -290,6 +290,16 @@ R1: 50 Ohm; R2: 20 Ohm; C: 100 microFaradios; Señal cuadrada 5Hz; 5 V
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=u(t)=R_{1}(t)+R_{2}i(t)+vc(t)=0"><img src="http://www.alciro.org/cgi/tex.cgi?u(t)=R_{1}(t)+R_{2}i(t)+vc(t)=0" title="u(t)=R_{1}(t)+R_{2}i(t)+vc(t)=0" border="0" /></a>
 
 Como <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=vc(t)= y(t) =i(t) =C\frac{dy}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?vc(t)= y(t) =i(t) =C\frac{dy}{dt}" title="vc(t)= y(t) =i(t) =C\frac{dy}{dt}" border="0" /></a> reemplazamos 
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=u(t)=(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)"><img src="http://www.alciro.org/cgi/tex.cgi?u(t)=(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)" title="u(t)=(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)" border="0" /></a>
+
+* Organizamos y sustituimos valores
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)=u(t)"><img src="http://www.alciro.org/cgi/tex.cgi?(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)=u(t)" title="(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)=u(t)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=(50+20)(100x10^{-6}) \frac{dy}{dt}+ y(t)=u(t)"><img src="http://www.alciro.org/cgi/tex.cgi?(50+20)(100x10^{-6}) \frac{dy}{dt}+ y(t)=u(t)" title="(50+20)(100x10^{-6}) \frac{dy}{dt}+ y(t)=u(t)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=0.007 \frac{dy}{dt}+ y(t)=u(t)"><img src="http://www.alciro.org/cgi/tex.cgi?0.007 \frac{dy}{dt}+ y(t)=u(t)" title="0.007 \frac{dy}{dt}+ y(t)=u(t)" border="0" /></a>
+
 ```
 clc;
 clear;
