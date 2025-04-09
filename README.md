@@ -238,7 +238,7 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{d}{d(t)}(T+U)=m\dot{x}\bar{x}+kx\dot{x}=(m\bar{x}+kx)\dot{x}=0"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{d}{d(t)}(T+U)=m\dot{x}\bar{x}+kx\dot{x}=(m\bar{x}+kx)\dot{x}=0" title="\frac{d}{d(t)}(T+U)=m\dot{x}\bar{x}+kx\dot{x}=(m\bar{x}+kx)\dot{x}=0" border="0" /></a>
 
-## 5. Conversioón movimiento traslacional-rotacional 
+## 5. Conversión movimiento traslacional-rotacional 
 ### Casos Frecuentes
 
 * Tornillo sinfin
@@ -264,7 +264,19 @@ Es el fenomeno fisico que modela este comportamiento en las Leyes de Kirchoff y 
 * Carga de un condensador <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=i(t)= C*\frac{dv(t)}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?i(t)= C*\frac{dv(t)}{dt}" title="i(t)= C*\frac{dv(t)}{dt}" border="0" /></a>
 
 * Carga de un inductor <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V(t)= L*\frac{di(t)}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?V(t)= L*\frac{di(t)}{dt}" title="V(t)= L*\frac{di(t)}{dt}" border="0" /></a>
+### Ejemplos
+## 1.1
 
+![image](https://github.com/user-attachments/assets/60515aa8-0c26-4ea5-860c-043bebec86fc)
+
+* Aplicamos Ley de Kirchoff
+  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U+VR+VL+VC=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U+VR+VL+VC=O" title="-U+VR+VL+VC=O" border="0" /></a>
+
+  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U(t)+i(t)*R+L\frac{di(t)}{dt}+y(t)=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U(t)+i(t)*R+L\frac{di(t)}{dt}+y(t)=O" title="-U(t)+i(t)*R+L\frac{di(t)}{dt}+y(t)=O" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U(t)+C\frac{dy(t)}{dt}*R+L\frac{d)}{dt}(C\frac{dy(t)}{dt}+y(t)=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U(t)+C\frac{dy(t)}{dt}*R+L\frac{d)}{dt}(C\frac{dy(t)}{dt}+y(t)=O" title="-U(t)+C\frac{dy(t)}{dt}*R+L\frac{d)}{dt}(C\frac{dy(t)}{dt}+y(t)=O" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U(t)+RC\frac{dy(t)}{dt}+LC\frac{d^{2}y(t)}{dt^{2}}+y(t)=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U(t)+RC\frac{dy(t)}{dt}+LC\frac{d^{2}y(t)}{dt^{2}}+y(t)=O" title="-U(t)+RC\frac{dy(t)}{dt}+LC\frac{d^{2}y(t)}{dt^{2}}+y(t)=O" border="0" /></a>
 ```
 var sumar2 = function(numero) {
   return numero + 2;
