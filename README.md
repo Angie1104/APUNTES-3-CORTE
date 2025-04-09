@@ -346,5 +346,13 @@ grid on;
 * Utilidad de la Transformada de Laplace
 
 La Transformada de Laplace es una herramienta clave para resolver ecuaciones diferenciales, ya que permite analizar sistemas en el dominio de la frecuencia, facilitando su estudio y solución.
+
+* Análisis y comportamiento del sistema
+
+Trabajar en el dominio de Laplace permite entender mejor la respuesta de un sistema ante diferentes entradas, identificando características como estabilidad y comportamiento en estado estacionario
+
+*Apoyo de herramientas computacionales
+
+El uso de MATLAB y Simulink complementa el análisis teórico, permitiendo simular sistemas dinámicos de forma visual y confirmar resultados analíticos.
 ## 11. Referencias
 Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
