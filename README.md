@@ -341,6 +341,16 @@ grid on;
 
 ![image](https://github.com/user-attachments/assets/b60e2e3c-1d83-481f-93fd-f2ec4d589c43)
 
+## Amplificador no inverso
+
+Se utilizan leyes de Kirchof y el modelo simplificado del amplificador operacional 
+
+![image](https://github.com/user-attachments/assets/7911912f-005b-4f22-884b-c04ad39c9e9b)
+
+* La tension em ambas entradas del amplificado son iguales
+* La corriente a las entradas del amplificador es igual a 0
+* La impedancia de entrada es muy grande
+* La impedancia de salida es pequeña
 
 ## Conclusiones
 * Utilidad de la Transformada de Laplace
