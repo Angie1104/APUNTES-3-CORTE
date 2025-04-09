@@ -285,6 +285,11 @@ R1: 50 Ohm; R2: 20 Ohm; C: 100 microFaradios; Señal cuadrada 5Hz; 5 V
 
 ![image](https://github.com/user-attachments/assets/4691aa32-3fca-4f71-bd2b-def03907550f)
 
+* Forma Manual
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=u(t)=R_{1}(t)+R_{2}i(t)+vc(t)=0"><img src="http://www.alciro.org/cgi/tex.cgi?u(t)=R_{1}(t)+R_{2}i(t)+vc(t)=0" title="u(t)=R_{1}(t)+R_{2}i(t)+vc(t)=0" border="0" /></a>
+
+Como <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=vc(t)= y(t) =i(t) =C\frac{dy}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?vc(t)= y(t) =i(t) =C\frac{dy}{dt}" title="vc(t)= y(t) =i(t) =C\frac{dy}{dt}" border="0" /></a> reemplazamos 
 ```
 clc;
 clear;
@@ -303,7 +308,7 @@ u = @(t) 5 * double(mod(floor(2*5*t),2) == 0);
 odefun = @(t, y) (1/RC_total)*(u(t) - y);
 
 % Simulación
-tspan = [0 1];   % Más tiempo para ver varios ciclos
+tspan = [0 1];   
 y0 = 0;
 [t, y] = ode45(odefun, tspan, y0);
 
