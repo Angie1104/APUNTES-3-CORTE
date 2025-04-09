@@ -343,7 +343,8 @@ grid on;
 
 
 ## Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
+* Utilidad de la Transformada de Laplace
 
+La Transformada de Laplace es una herramienta clave para resolver ecuaciones diferenciales, ya que permite analizar sistemas en el dominio de la frecuencia, facilitando su estudio y solución.
 ## 11. Referencias
 Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
