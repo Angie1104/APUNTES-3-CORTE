@@ -354,5 +354,8 @@ Trabajar en el dominio de Laplace permite entender mejor la respuesta de un sist
 *Apoyo de herramientas computacionales
 
 El uso de MATLAB y Simulink complementa el análisis teórico, permitiendo simular sistemas dinámicos de forma visual y confirmar resultados analíticos.
-## 11. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
+## Referencias
+* Ogata, K. (2010). Ingeniería de Control Moderna (5ª ed.). Pearson Educación.
+* Dorf, R. C., & Bishop, R. H. (2011). Modern Control Systems (12th ed.). Prentice Hall.
+* MathWorks. (2023). MATLAB & Simulink Documentation. Recuperado de: https://www.mathworks.com/help/
+* Franklin, G. F., Powell, J. D., & Emami-Naeini, A. (2015). Feedback Control of Dynamic Systems (7th ed.). Pearson.
