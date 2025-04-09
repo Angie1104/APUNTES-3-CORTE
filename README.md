@@ -252,6 +252,19 @@ La potencia es la realización de trabajo que varia con respecto al tiempo
 ![image](https://github.com/user-attachments/assets/d9a315d5-1209-40c6-90c2-bf5d4ae4d7bc)
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=J= Mr^{2}=\frac{w}{g}*r^{2}"><img src="http://www.alciro.org/cgi/tex.cgi?J= Mr^{2}=\frac{w}{g}*r^{2}" title="J= Mr^{2}=\frac{w}{g}*r^{2}" border="0" /></a>
+
+# SISTEMAS ELECTRICOS
+## Circuitos RLC
+Es el fenomeno fisico que modela este comportamiento en las Leyes de Kirchoff y está compuesto por:
+
+![image](https://github.com/user-attachments/assets/e841f9a3-2e95-41f6-ab77-7f8817d7ad2c)
+
+* Ley de Ohm <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=R=\frac{v(t)}{i(t)}"><img src="http://www.alciro.org/cgi/tex.cgi?R=\frac{v(t)}{i(t)}" title="R=\frac{v(t)}{i(t)}" border="0" /></a>
+
+* Carga de un condensador <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=i(t)= C*\frac{dv(t)}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?i(t)= C*\frac{dv(t)}{dt}" title="i(t)= C*\frac{dv(t)}{dt}" border="0" /></a>
+
+* Carga de un inductor <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V(t)= L*\frac{di(t)}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?V(t)= L*\frac{di(t)}{dt}" title="V(t)= L*\frac{di(t)}{dt}" border="0" /></a>
+
 ```
 var sumar2 = function(numero) {
   return numero + 2;
