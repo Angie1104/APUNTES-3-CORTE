@@ -265,7 +265,7 @@ Es el fenomeno fisico que modela este comportamiento en las Leyes de Kirchoff y 
 
 * Carga de un inductor <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V(t)= L*\frac{di(t)}{dt}"><img src="http://www.alciro.org/cgi/tex.cgi?V(t)= L*\frac{di(t)}{dt}" title="V(t)= L*\frac{di(t)}{dt}" border="0" /></a>
 ### Ejemplos
-## 1.1
+### 1.1
 
 ![image](https://github.com/user-attachments/assets/60515aa8-0c26-4ea5-860c-043bebec86fc)
 
@@ -278,6 +278,13 @@ Es el fenomeno fisico que modela este comportamiento en las Leyes de Kirchoff y 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U(t)+C\frac{dy(t)}{dt}*R+L\frac{d)}{dt}(C\frac{dy(t)}{dt}+y(t)=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U(t)+C\frac{dy(t)}{dt}*R+L\frac{d)}{dt}(C\frac{dy(t)}{dt}+y(t)=O" title="-U(t)+C\frac{dy(t)}{dt}*R+L\frac{d)}{dt}(C\frac{dy(t)}{dt}+y(t)=O" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U(t)+RC\frac{dy(t)}{dt}+LC\frac{d^{2}y(t)}{dt^{2}}+y(t)=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U(t)+RC\frac{dy(t)}{dt}+LC\frac{d^{2}y(t)}{dt^{2}}+y(t)=O" title="-U(t)+RC\frac{dy(t)}{dt}+LC\frac{d^{2}y(t)}{dt^{2}}+y(t)=O" border="0" /></a>
+
+### 1.2
+
+R1: 50 Ohm; R2: 20 Ohm; C: 100 microFaradios: Señal cuadrada 5Hz; 5 V
+
+![image](https://github.com/user-attachments/assets/4691aa32-3fca-4f71-bd2b-def03907550f)
+
 ```
 var sumar2 = function(numero) {
   return numero + 2;
