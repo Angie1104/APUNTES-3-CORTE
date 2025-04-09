@@ -270,9 +270,10 @@ Es el fenomeno fisico que modela este comportamiento en las Leyes de Kirchoff y 
 ![image](https://github.com/user-attachments/assets/60515aa8-0c26-4ea5-860c-043bebec86fc)
 
 * Aplicamos Ley de Kirchoff
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U+VR+VL+VC=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U+VR+VL+VC=O" title="-U+VR+VL+VC=O" border="0" /></a>
 
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U(t)+i(t)*R+L\frac{di(t)}{dt}+y(t)=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U(t)+i(t)*R+L\frac{di(t)}{dt}+y(t)=O" title="-U(t)+i(t)*R+L\frac{di(t)}{dt}+y(t)=O" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U+VR+VL+VC=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U+VR+VL+VC=O" title="-U+VR+VL+VC=O" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U(t)+i(t)*R+L\frac{di(t)}{dt}+y(t)=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U(t)+i(t)*R+L\frac{di(t)}{dt}+y(t)=O" title="-U(t)+i(t)*R+L\frac{di(t)}{dt}+y(t)=O" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=-U(t)+C\frac{dy(t)}{dt}*R+L\frac{d)}{dt}(C\frac{dy(t)}{dt}+y(t)=O"><img src="http://www.alciro.org/cgi/tex.cgi?-U(t)+C\frac{dy(t)}{dt}*R+L\frac{d)}{dt}(C\frac{dy(t)}{dt}+y(t)=O" title="-U(t)+C\frac{dy(t)}{dt}*R+L\frac{d)}{dt}(C\frac{dy(t)}{dt}+y(t)=O" border="0" /></a>
 
