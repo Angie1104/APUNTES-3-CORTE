@@ -294,11 +294,14 @@ Como <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=v
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=u(t)=(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)"><img src="http://www.alciro.org/cgi/tex.cgi?u(t)=(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)" title="u(t)=(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)" border="0" /></a>
 
 * Organizamos y sustituimos valores
+
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)=u(t)"><img src="http://www.alciro.org/cgi/tex.cgi?(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)=u(t)" title="(R_{1}+R_{2}) C\frac{dy}{dt}+ y(t)=u(t)" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=(50+20)(100x10^{-6}) \frac{dy}{dt}+ y(t)=u(t)"><img src="http://www.alciro.org/cgi/tex.cgi?(50+20)(100x10^{-6}) \frac{dy}{dt}+ y(t)=u(t)" title="(50+20)(100x10^{-6}) \frac{dy}{dt}+ y(t)=u(t)" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=0.007 \frac{dy}{dt}+ y(t)=u(t)"><img src="http://www.alciro.org/cgi/tex.cgi?0.007 \frac{dy}{dt}+ y(t)=u(t)" title="0.007 \frac{dy}{dt}+ y(t)=u(t)" border="0" /></a>
+
+* ODE45
 
 ```
 clc;
@@ -331,6 +334,12 @@ grid on;
 
 ```
 ![image](https://github.com/user-attachments/assets/3189e7d4-5785-416b-a65a-52c8b0eb2379)
+
+* SIMULINK
+
+![image](https://github.com/user-attachments/assets/4a0ca3aa-064b-484b-8195-fd756d3d7641)
+
+![image](https://github.com/user-attachments/assets/b60e2e3c-1d83-481f-93fd-f2ec4d589c43)
 
 
 ## 9. Ejercicios
