@@ -281,14 +281,39 @@ Es el fenomeno fisico que modela este comportamiento en las Leyes de Kirchoff y 
 
 ### 1.2
 
-R1: 50 Ohm; R2: 20 Ohm; C: 100 microFaradios: Señal cuadrada 5Hz; 5 V
+R1: 50 Ohm; R2: 20 Ohm; C: 100 microFaradios; Señal cuadrada 5Hz; 5 V
 
 ![image](https://github.com/user-attachments/assets/4691aa32-3fca-4f71-bd2b-def03907550f)
 
 ```
-var sumar2 = function(numero) {
-  return numero + 2;
-}
+clc;
+clear;
+close all;
+
+% Parámetros
+R1 = 50;
+R2 = 20;
+C = 100e-6;
+RC_total = (R1 + R2) * C;  % 0.007
+
+% Entrada: señal cuadrada de 5 Hz y 5V
+u = @(t) 5 * double(mod(floor(2*5*t),2) == 0);
+
+% Ecuación diferencial
+odefun = @(t, y) (1/RC_total)*(u(t) - y);
+
+% Simulación
+tspan = [0 1];   % Más tiempo para ver varios ciclos
+y0 = 0;
+[t, y] = ode45(odefun, tspan, y0);
+
+% Graficar respuesta
+plot(t, y, 'b', 'LineWidth', 2);
+xlabel('Tiempo [s]');
+ylabel('Voltaje en el capacitor y(t)');
+title('Respuesta a señal cuadrada de 5 Hz y 5V');
+grid on;
+
 ```
 
 ## 9. Ejercicios
