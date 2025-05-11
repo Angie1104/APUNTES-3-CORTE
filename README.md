@@ -21,7 +21,7 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 * Si se iguala N(s) a 0 se obtienen los valores de "S" que cumplen con la condición
 * Si el numerador se hace 0 toda la función de trasnferencia se vuelve cero de ahí el nombre para estos valores de "S"
 * Estos valores pueden ser reales o complejos por lo tanto se pueden ubicar en el plano cartesiano 
-### Ejemplos
+### Ejemplo
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=H(s)= \frac{s^{2}+4s+3}{s^{2}+6s+8}"><img src="http://www.alciro.org/cgi/tex.cgi?H(s)= \frac{s^{2}+4s+3}{s^{2}+6s+8}" title="H(s)= \frac{s^{2}+4s+3}{s^{2}+6s+8}" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s^{2}+4s+3= 0"><img src="http://www.alciro.org/cgi/tex.cgi?s^{2}+4s+3= 0" title="s^{2}+4s+3= 0" border="0" /></a>
@@ -32,6 +32,21 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 
 ![image](https://github.com/user-attachments/assets/fd0dfb28-cff7-4edb-a932-f10f6ef27b79)
 
+## POLOS DE UNA FUNCIÓN DE TRANSFERENCIA 
+* Si se iguala D(s) a 0 se obtienen los valores de "S" que cumplen con la condición
+* Si el denominador se hace 0 toda la función de transferencia se hace infinito de ahí el nombre para estos valores de "S"
+* Estos valores pueden ser reales o complejos por lo tanto se pueden ubicar en el plano cartesiano
+### Ejemplos
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=H(s)= \frac{s^{2}+4s+3}{s^{2}+6s+8}"><img src="http://www.alciro.org/cgi/tex.cgi?H(s)= \frac{s^{2}+4s+3}{s^{2}+6s+8}" title="H(s)= \frac{s^{2}+4s+3}{s^{2}+6s+8}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s^{2}+6s+8=0"><img src="http://www.alciro.org/cgi/tex.cgi?s^{2}+6s+8=0" title="s^{2}+6s+8=0" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=(s+2)(s+4)= 0"><img src="http://www.alciro.org/cgi/tex.cgi?(s+2)(s+4)= 0" title="(s+2)(s+4)= 0" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s=-2"><img src="http://www.alciro.org/cgi/tex.cgi?s=-2" title="s=-2" border="0" /></a> , <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s=-4
+"><img src="http://www.alciro.org/cgi/tex.cgi?s=-4
+" title="s=-4
+" border="0" /></a>
 
 
 ## 3. Ejemplos
