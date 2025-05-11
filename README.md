@@ -43,10 +43,10 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=(s+2)(s+4)= 0"><img src="http://www.alciro.org/cgi/tex.cgi?(s+2)(s+4)= 0" title="(s+2)(s+4)= 0" border="0" /></a>
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s=-2"><img src="http://www.alciro.org/cgi/tex.cgi?s=-2" title="s=-2" border="0" /></a> , <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s=-4
-"><img src="http://www.alciro.org/cgi/tex.cgi?s=-4
-" title="s=-4
-" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s=-2"><img src="http://www.alciro.org/cgi/tex.cgi?s=-2" title="s=-2" border="0" /></a> , <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s=-4"><img src="http://www.alciro.org/cgi/tex.cgi?s=-4" title="s=-4" border="0" /></a>
+
+![image](https://github.com/user-attachments/assets/6eca7eb0-d3f2-461b-8f83-de6072fbaadc)
+
 
 
 ## 3. Ejemplos
