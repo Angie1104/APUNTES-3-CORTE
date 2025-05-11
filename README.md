@@ -15,6 +15,9 @@ Una función de transferencia es un modelo matemático que, a través de un coci
   * n>m impropia
   * m>n estrictamente propia
   * n=m bipropia
+### Ejemplos
+![image](https://github.com/user-attachments/assets/1b89068c-e393-4f8d-9a47-71dc4a8482d0)
+
     
 
 
