@@ -51,6 +51,9 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 * Otras forma de clasificar las funciones de transferencia es por su orden o grado
 * Esto lo define el polinomio caracteristico
 
+![image](https://github.com/user-attachments/assets/7fe0ee9f-e153-4f74-abc0-42a9d9735cc7)
+
+
 ## 3. Ejemplos
 
 ### 3.1. 
