@@ -53,6 +53,8 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 
 ![image](https://github.com/user-attachments/assets/7fe0ee9f-e153-4f74-abc0-42a9d9735cc7)
 
+# TEOREMA DEL VALOR FINAL 
+* El error en estado estacionario corresponde al error medido en <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=t=\infty "><img src="http://www.alciro.org/cgi/tex.cgi?t=\infty " title="t=\infty " border="0" /></a>
 
 ## 3. Ejemplos
 
