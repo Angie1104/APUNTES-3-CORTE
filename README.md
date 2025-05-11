@@ -17,8 +17,15 @@ Una función de transferencia es un modelo matemático que, a través de un coci
   * n=m bipropia
 ### Ejemplos
 ![image](https://github.com/user-attachments/assets/1b89068c-e393-4f8d-9a47-71dc4a8482d0)
+## CEROS DE UNA FUNCIÓN DE TRANSFERENCIA 
+* Si se iguala N(s) a 0 se obtienen los valores de "S" que cumplen con la condición
+* Si el numerador se hace 0 toda la función de trasnferencia se vuelve cero de ahí el nombre para estos valores de "S"
+* Estos valores pueden ser reales o complejos por lo tanto se pueden ubicar en el plano cartesiano 
+### Ejemplos
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=H(s)= \frac{s^2+4s+3}{s^2+6s+8}"><img src="http://www.alciro.org/cgi/tex.cgi?H(s)= \frac{s^2+4s+3}{s^2+6s+8}" title="H(s)= \frac{s^2+4s+3}{s^2+6s+8}" border="0" /></a>
 
-    
+![image](https://github.com/user-attachments/assets/fd0dfb28-cff7-4edb-a932-f10f6ef27b79)
+
 
 
 ## 3. Ejemplos
