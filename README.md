@@ -2,7 +2,9 @@
 # FUNCIÓN DE TRANSFERENCIA 
 Una función de transferencia es un modelo matemático que, a través de un cociente, relaciona la respuesta de un sistema (modelada o señal de salida) con una señal de entrada o excitación (también modelada). En la teoría de control, a menudo se usan las funciones de transferencia para caracterizar las relaciones de entrada y salida de componentes o de sistemas que se describen mediante ecuaciones diferenciales lineales e invariantes en el tiempo.
 
-Se despeja la   <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{salida}{entrada}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{salida}{entrada}" title="\frac{salida}{entrada}" border="0" /></a>  es  decir  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)}" title="\frac{Y(s)}{U(s)}" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{salida}{entrada}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{salida}{entrada}" title="\frac{salida}{entrada}" border="0" /></a>  =  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)}" title="\frac{Y(s)}{U(s)}" border="0" /></a>
+
+Todas las condiciones iniciales de la ecuación diferencial son iguales a 0
 * Aplicar la transformada de LaPlace a toda la ecuación (Termino a termino), de tal manera que se obtenga una ecuación algebraica en el dominio de S.
 
 * Despejar la variable que representa la salida de la ecuación.
