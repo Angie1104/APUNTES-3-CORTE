@@ -4,19 +4,12 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{salida}{entrada}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{salida}{entrada}" title="\frac{salida}{entrada}" border="0" /></a>  =  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)}" title="\frac{Y(s)}{U(s)}" border="0" /></a>
 
-Todas las condiciones iniciales de la ecuación diferencial son iguales a 0
-* Aplicar la transformada de LaPlace a toda la ecuación (Termino a termino), de tal manera que se obtenga una ecuación algebraica en el dominio de S.
+* Todas las condiciones iniciales de la ecuación diferencial son iguales a 0
 
-* Despejar la variable que representa la salida de la ecuación.
+## CLASIFICACIÓN DE LAS FUNCIONES DE TRANSFERENCIA
+* Una función de transferencia se puede expresar como:
 
-* Aplicar la trasnformada inversa de LaPalce a la expresión obtenida para obtener la solución en el dominio del tiempo.
-
-## 2. Tabla de las derivadas de LaPlace en el tiempo
-| En el tiempo | En LaPlace          |
-|--------------|---------------------|
-| x(t)         | X(s)                |
-| x'(t)        | sX(s)-x(0)          |
-| x"(t)        | s^2X(s)-sx(0)-x'(0) |
+  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G(s)=\frac{N(s)}{D(s)}"><img src="http://www.alciro.org/cgi/tex.cgi?G(s)=\frac{N(s)}{D(s)}" title="G(s)=\frac{N(s)}{D(s)}" border="0" /></a>
 
 ## 3. Ejemplos
 
