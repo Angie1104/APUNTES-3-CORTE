@@ -55,7 +55,9 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 
 # TEOREMA DEL VALOR FINAL 
 * El error en estado estacionario corresponde al error medido en <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=t=\infty "><img src="http://www.alciro.org/cgi/tex.cgi?t=\infty " title="t=\infty " border="0" /></a>
-* Es posible aprovechar el teorema del valor final para saber el valor final del error <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\displaystyle \lim_{t \to \infty } f(t) = \displaystyle \lim_{s \to 0 } sF(s)"><img src="http://www.alciro.org/cgi/tex.cgi?\displaystyle \lim_{t \to \infty } f(t) = \displaystyle \lim_{s \to 0 } sF(s)" title="\displaystyle \lim_{t \to \infty } f(t) = \displaystyle \lim_{s \to 0 } sF(s)" border="0" /></a>
+* Es posible aprovechar el teorema del valor final para saber el valor final del error
+
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\displaystyle \lim_{t \to \infty } f(t) = \displaystyle \lim_{s \to 0 } sF(s)"><img src="http://www.alciro.org/cgi/tex.cgi?\displaystyle \lim_{t \to \infty } f(t) = \displaystyle \lim_{s \to 0 } sF(s)" title="\displaystyle \lim_{t \to \infty } f(t) = \displaystyle \lim_{s \to 0 } sF(s)" border="0" /></a>
 ## 3. Ejemplos
 
 ### 3.1. 
