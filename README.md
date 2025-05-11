@@ -24,6 +24,12 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 ### Ejemplos
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=H(s)= \frac{s^{2}+4s+3}{s^{2}+6s+8}"><img src="http://www.alciro.org/cgi/tex.cgi?H(s)= \frac{s^{2}+4s+3}{s^{2}+6s+8}" title="H(s)= \frac{s^{2}+4s+3}{s^{2}+6s+8}" border="0" /></a>
 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s^{2}+4s+3= 0"><img src="http://www.alciro.org/cgi/tex.cgi?s^{2}+4s+3= 0" title="s^{2}+4s+3= 0" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=(s+1)(s+3)=0"><img src="http://www.alciro.org/cgi/tex.cgi?(s+1)(s+3)=0" title="(s+1)(s+3)=0" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s=-1"><img src="http://www.alciro.org/cgi/tex.cgi?s=-1" title="s=-1" border="0" /></a> , <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s=-3"><img src="http://www.alciro.org/cgi/tex.cgi?s=-3" title="s=-3" border="0" /></a>
+
 ![image](https://github.com/user-attachments/assets/fd0dfb28-cff7-4edb-a932-f10f6ef27b79)
 
 
