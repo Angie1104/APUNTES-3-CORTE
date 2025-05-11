@@ -10,6 +10,13 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 * Una función de transferencia se puede expresar como:
 
   <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G(s)=\frac{N(s)}{D(s)}"><img src="http://www.alciro.org/cgi/tex.cgi?G(s)=\frac{N(s)}{D(s)}" title="G(s)=\frac{N(s)}{D(s)}" border="0" /></a>
+* Donde N(s) y D(s) son polinomios en la variable "S"
+* Se tienen 3 casos posibles:
+  * n>m impropia
+  * m>n estrictamente propia
+  * n=m bipropia
+    
+
 
 ## 3. Ejemplos
 
