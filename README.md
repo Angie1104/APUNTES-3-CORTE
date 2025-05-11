@@ -1,7 +1,8 @@
 
-# SOLUCION DE ECUACIONES DIFERENCIALES 
+# FUNCIÓN DE TRANSFERENCIA 
+Una función de transferencia es un modelo matemático que, a través de un cociente, relaciona la respuesta de un sistema (modelada o señal de salida) con una señal de entrada o excitación (también modelada). En la teoría de control, a menudo se usan las funciones de transferencia para caracterizar las relaciones de entrada y salida de componentes o de sistemas que se describen mediante ecuaciones diferenciales lineales e invariantes en el tiempo.
 
-## Metodologia de solución:
+Se despeja la 
 * Aplicar la transformada de LaPlace a toda la ecuación (Termino a termino), de tal manera que se obtenga una ecuación algebraica en el dominio de S.
 
 * Despejar la variable que representa la salida de la ecuación.
