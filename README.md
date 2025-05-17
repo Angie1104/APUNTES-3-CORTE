@@ -70,6 +70,8 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\lim_{ s\to 0}\frac{4}{5s+1}=4"><img src="http://www.alciro.org/cgi/tex.cgi?\lim_{ s\to 0}\frac{4}{5s+1}=4" title="\lim_{ s\to 0}\frac{4}{5s+1}=4" border="0" /></a>
 
+* Código en Matlab
+
 ```
 clc;
 clc;
