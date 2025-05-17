@@ -70,6 +70,31 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\lim_{ s\to 0}\frac{4}{5s+1}=4"><img src="http://www.alciro.org/cgi/tex.cgi?\lim_{ s\to 0}\frac{4}{5s+1}=4" title="\lim_{ s\to 0}\frac{4}{5s+1}=4" border="0" /></a>
 
+```
+clc;
+clc;
+clear;
+close all;
+
+% Parámetros
+t = 0:0.1:45;        % Tiempo de simulación
+y = zeros(size(t));  % Inicializar salida
+dt = t(2) - t(1);     % Paso de tiempo
+u = ones(size(t));   % Entrada escalón
+
+% Simulación por método de Euler
+for k = 1:length(t)-1
+    dy = (4*u(k) - y(k)) / 5;     % Derivada según la ecuación
+    y(k+1) = y(k) + dy * dt;      % Integración por pasos
+end
+
+% Graficar resultado
+plot(t, y, 'b', 'LineWidth', 2);
+grid on;
+title('Respuesta al Escalón ');
+xlabel('Tiempo (s)');
+ylabel('Salida y(t)');
+```
 ![image](https://github.com/user-attachments/assets/325fa3df-ad9e-4dd5-add9-ec7cecaf9e89)
 
 ### 3.1. 
@@ -358,8 +383,7 @@ Como <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=v
 
 * ODE45
 
-```
-clc;
+```clc;
 clear;
 close all;
 
