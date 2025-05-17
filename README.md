@@ -68,6 +68,10 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\lim_{ s\to 0}sY(s)=\lim_{s \to 0}S * \frac{\frac{4}{s}}{5s+1}"><img src="http://www.alciro.org/cgi/tex.cgi?\lim_{ s\to 0}sY(s)=\lim_{s \to 0}S * \frac{\frac{4}{s}}{5s+1}" title="\lim_{ s\to 0}sY(s)=\lim_{s \to 0}S * \frac{\frac{4}{s}}{5s+1}" border="0" /></a>
 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\lim_{ s\to 0}\frac{4}{5s+1}=4"><img src="http://www.alciro.org/cgi/tex.cgi?\lim_{ s\to 0}\frac{4}{5s+1}=4" title="\lim_{ s\to 0}\frac{4}{5s+1}=4" border="0" /></a>
+
+![image](https://github.com/user-attachments/assets/325fa3df-ad9e-4dd5-add9-ec7cecaf9e89)
+
 ### 3.1. 
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \ddot{x}+3x+2x=0 "><img src="http://www.alciro.org/cgi/tex.cgi? \ddot{x}+3x+2x=0 " title=" \ddot{x}+3x+2x=0 " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(0)=a "><img src="http://www.alciro.org/cgi/tex.cgi?x(0)=a " title="x(0)=a " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\dot{x}(0)= b"><img src="http://www.alciro.org/cgi/tex.cgi?\dot{x}(0)= b" title="\dot{x}(0)= b" border="0" /></a>
 
