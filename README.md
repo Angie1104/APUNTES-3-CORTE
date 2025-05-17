@@ -58,7 +58,15 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 * Es posible aprovechar el teorema del valor final para saber el valor final del error
 
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\displaystyle \lim_{t \to \infty } f(t) = \displaystyle \lim_{s \to 0 } sF(s)"><img src="http://www.alciro.org/cgi/tex.cgi?\displaystyle \lim_{t \to \infty } f(t) = \displaystyle \lim_{s \to 0 } sF(s)" title="\displaystyle \lim_{t \to \infty } f(t) = \displaystyle \lim_{s \to 0 } sF(s)" border="0" /></a>
-## 3. Ejemplos
+### Ejemplo
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G(s)=\frac{Y(s)}{U(s)}=\frac{4}{5s+1}"><img src="http://www.alciro.org/cgi/tex.cgi?G(s)=\frac{Y(s)}{U(s)}=\frac{4}{5s+1}" title="G(s)=\frac{Y(s)}{U(s)}=\frac{4}{5s+1}" border="0" /></a>
+* Si la entrada es un escalon
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)= \frac{\frac{4}{s}}{5s+1}"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)= \frac{\frac{4}{s}}{5s+1}" title="Y(s)= \frac{\frac{4}{s}}{5s+1}" border="0" /></a>
+
+* El valor final de Y(s) se puede calcular aplicando el teorema del valor final:
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\lim_{ s\to 0}sY(s)=\lim_{s \to 0}S * \frac{\frac{4}{s}}{5s+1}"><img src="http://www.alciro.org/cgi/tex.cgi?\lim_{ s\to 0}sY(s)=\lim_{s \to 0}S * \frac{\frac{4}{s}}{5s+1}" title="\lim_{ s\to 0}sY(s)=\lim_{s \to 0}S * \frac{\frac{4}{s}}{5s+1}" border="0" /></a>
 
 ### 3.1. 
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \ddot{x}+3x+2x=0 "><img src="http://www.alciro.org/cgi/tex.cgi? \ddot{x}+3x+2x=0 " title=" \ddot{x}+3x+2x=0 " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(0)=a "><img src="http://www.alciro.org/cgi/tex.cgi?x(0)=a " title="x(0)=a " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\dot{x}(0)= b"><img src="http://www.alciro.org/cgi/tex.cgi?\dot{x}(0)= b" title="\dot{x}(0)= b" border="0" /></a>
