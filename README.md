@@ -105,14 +105,18 @@ ylabel('Salida y(t)');
 * Otro enfoque es utilizar modelos ya desarrollados ampliamente para construir modelos más complejos
 * Aún usando este enfoque hay muchos tipos de procesos y dispositivos
 ### SOLENOIDE
-Un solenoide está formado por un circuito eléctrico, un acoplamiento electromecánico (transductor) y un sistema mecánico de traslación.
+* Un solenoide está formado por un circuito eléctrico, un acoplamiento electromecánico (transductor) y un sistema mecánico de traslación.
 
 ![image](https://github.com/user-attachments/assets/64f79d15-c074-4988-a816-6dc7368d0f7a)
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L\frac{di}{dt}+Ri= v(t)"><img src="http://www.alciro.org/cgi/tex.cgi?L\frac{di}{dt}+Ri= v(t)" title="L\frac{di}{dt}+Ri= v(t)" border="0" /></a> 
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=I(s)= V(s)\frac{1}{Ls+R}"><img src="http://www.alciro.org/cgi/tex.cgi?I(s)= V(s)\frac{1}{Ls+R}" title="I(s)= V(s)\frac{1}{Ls+R}" border="0" /></a>
-### 3.1. 
+*  El electroimán produce una fuerza mecánica proporcional a la corriente en el embobinado
+*  El electroimán atrae una masa acoplada por medio de un resorte y se considera el mortiguamiento dado por la envolvente de la bobina
+
+[image](https://github.com/user-attachments/assets/2c412665-a183-4241-9a29-055e3c967e3e)
+
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \ddot{x}+3x+2x=0 "><img src="http://www.alciro.org/cgi/tex.cgi? \ddot{x}+3x+2x=0 " title=" \ddot{x}+3x+2x=0 " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(0)=a "><img src="http://www.alciro.org/cgi/tex.cgi?x(0)=a " title="x(0)=a " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\dot{x}(0)= b"><img src="http://www.alciro.org/cgi/tex.cgi?\dot{x}(0)= b" title="\dot{x}(0)= b" border="0" /></a>
 
 * Aplicamos la transformada de LaPlace
