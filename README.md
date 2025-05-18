@@ -97,7 +97,8 @@ title('Respuesta al Escalón ');
 xlabel('Tiempo (s)');
 ylabel('Salida y(t)');
 ```
-![image](https://github.com/user-attachments/assets/325fa3df-ad9e-4dd5-add9-ec7cecaf9e89)
+![image](https://github.com/user-attachments/assets/1287853d-8748-4ea5-adca-8282ecb9a8b0)
+
 
 ### 3.1. 
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \ddot{x}+3x+2x=0 "><img src="http://www.alciro.org/cgi/tex.cgi? \ddot{x}+3x+2x=0 " title=" \ddot{x}+3x+2x=0 " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(0)=a "><img src="http://www.alciro.org/cgi/tex.cgi?x(0)=a " title="x(0)=a " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\dot{x}(0)= b"><img src="http://www.alciro.org/cgi/tex.cgi?\dot{x}(0)= b" title="\dot{x}(0)= b" border="0" /></a>
