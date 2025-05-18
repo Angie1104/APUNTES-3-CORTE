@@ -122,38 +122,33 @@ ylabel('Salida y(t)');
 
 ![image](https://github.com/user-attachments/assets/fbf900ff-0474-401d-9b52-a7ee01e7f00d)  ![image](https://github.com/user-attachments/assets/b45777f7-c923-4d4f-a848-a3bba604e7f7)
 
+# MOTOR DC
+El motor de corriente continua, denominado también motor de corriente directa, motor CC o motor DC es una máquina que convierte energía eléctrica en energía mecánica, provocando un movimiento rotatorio, gracias a la acción de un campo magnético.
 
+![image](https://github.com/user-attachments/assets/f5270690-cc30-4f2b-81e9-93fc3eef2641)
 
- <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \ddot{x}+3x+2x=0 "><img src="http://www.alciro.org/cgi/tex.cgi? \ddot{x}+3x+2x=0 " title=" \ddot{x}+3x+2x=0 " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(0)=a "><img src="http://www.alciro.org/cgi/tex.cgi?x(0)=a " title="x(0)=a " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\dot{x}(0)= b"><img src="http://www.alciro.org/cgi/tex.cgi?\dot{x}(0)= b" title="\dot{x}(0)= b" border="0" /></a>
-
-* Aplicamos la transformada de LaPlace
-
- <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=[s^2X(s)-sx(0)-\dot{x}(0)]+3[sx(s)-x(0)]+2x(s)=0"><img src="http://www.alciro.org/cgi/tex.cgi?[s^2X(s)-sx(0)-\dot{x}(0)]+3[sx(s)-x(0)]+2x(s)=0" title="[s^2X(s)-sx(0)-\dot{x}(0)]+3[sx(s)-x(0)]+2x(s)=0" border="0" /></a>
-
-* Reemplazamos condiciones iniciales
-
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=[s^2X(s)-as-b]+3[sx(s)-a]+2x(s)=0"><img src="http://www.alciro.org/cgi/tex.cgi?[s^2X(s)-as-b]+3[sx(s)-a]+2x(s)=0" title="[s^2X(s)-as-b]+3[sx(s)-a]+2x(s)=0" border="0" /></a>
-
- * Despejamos X
-
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=(s^2+3s+2)X(S)= as+b+3a"><img src="http://www.alciro.org/cgi/tex.cgi?(s^2+3s+2)X(S)= as+b+3a" title="(s^2+3s+2)X(S)= as+b+3a" border="0" /></a>
-
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=X(S)=\frac{as+b+3a}{s^2+3s+2}=\frac{as+b+3a}{(s+1)(s+2)}=\frac{2a+b}{s+1}-\frac{a+b}{s+2}"><img src="http://www.alciro.org/cgi/tex.cgi?X(S)=\frac{as+b+3a}{s^2+3s+2}=\frac{as+b+3a}{(s+1)(s+2)}=\frac{2a+b}{s+1}-\frac{a+b}{s+2}" title="X(S)=\frac{as+b+3a}{s^2+3s+2}=\frac{as+b+3a}{(s+1)(s+2)}=\frac{2a+b}{s+1}-\frac{a+b}{s+2}" border="0" /></a>
-
- * Transformada inversa
-
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L{{f}'(t)} =sf(s)-f(0)"><img src="http://www.alciro.org/cgi/tex.cgi?L{{f}'(t)} =sf(s)-f(0)" title="L{{f}'(t)} =sf(s)-f(0)" border="0" /></a>
-
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L{{f}''(t)} =s^2f(s)-sf(0)-f'(0)"><img src="http://www.alciro.org/cgi/tex.cgi?L{{f}''(t)} =s^2f(s)-sf(0)-f'(0)" title="L{{f}''(t)} =s^2f(s)-sf(0)-f'(0)" border="0" /></a>
-
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L{{f}'''(t)} =s^3f(s)-s^2f(0)-sf'(0)-f''(0)"><img src="http://www.alciro.org/cgi/tex.cgi?L{{f}'''(t)} =s^3f(s)-s^2f(0)-sf'(0)-f''(0)" title="L{{f}'''(t)} =s^3f(s)-s^2f(0)-sf'(0)-f''(0)" border="0" /></a>
-
-   <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(t)=L^{-1}[x(s)]=L^{-1}[\frac{2a+b}{s+1}]-L^{-1}[\frac{a+b}{s+2}]"><img src="http://www.alciro.org/cgi/tex.cgi?x(t)=L^{-1}[x(s)]=L^{-1}[\frac{2a+b}{s+1}]-L^{-1}[\frac{a+b}{s+2}]" title="x(t)=L^{-1}[x(s)]=L^{-1}[\frac{2a+b}{s+1}]-L^{-1}[\frac{a+b}{s+2}]" border="0" /></a>
-
-  RESPUESTA:
+## MOTOR DC CORRIENTE DE CAMPO  
   
-  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=(2a+b)e^{-1}-(a+b)e^{-2t}} "><img src="http://www.alciro.org/cgi/tex.cgi?(2a+b)e^{-1}-(a+b)e^{-2t}} " title="(2a+b)e^{-1}-(a+b)e^{-2t}}
- " border="0" /></a>
+* Circuito electromagnetico:
+
+![image](https://github.com/user-attachments/assets/b40b39c8-53da-4957-a476-2f1c556095a6)
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L_{c}\frac{di_{c}}{dt}+ R_{c}i_{c}=v_{c}(t)"><img src="http://www.alciro.org/cgi/tex.cgi?L_{c}\frac{di_{c}}{dt}+ R_{c}i_{c}=v_{c}(t)" title="L_{c}\frac{di_{c}}{dt}+ R_{c}i_{c}=v_{c}(t)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=I_{c}(s)=V_{c}\frac{1}{(sL_{c}+R_{c})}"><img src="http://www.alciro.org/cgi/tex.cgi?I_{c}(s)=V_{c}\frac{1}{(sL_{c}+R_{c})}" title="I_{c}(s)=V_{c}\frac{1}{(sL_{c}+R_{c})}" border="0" /></a>
+* El flujo Φ en el entrehierro es proporcional a la corriente de campo
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\phi = K_{c}i_{c}"><img src="http://www.alciro.org/cgi/tex.cgi?\phi = K_{c}i_{c}" title="\phi = K_{c}i_{c}" border="0" /></a>
+
+* El torque desarrollado es proporcional al Φ y a la corriente de armadura
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T_{m}=K_{a}i_{a}(t)K_{c}i_{c}(t)"><img src="http://www.alciro.org/cgi/tex.cgi?T_{m}=K_{a}i_{a}(t)K_{c}i_{c}(t)" title="T_{m}=K_{a}i_{a}(t)K_{c}i_{c}(t)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)= K_{m}I_{c}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)= K_{m}I_{c}(s)" title="T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)= K_{m}I_{c}(s)" border="0" /></a>
+
+* El torque aplicado a la carga es el desarrollado por el motor menos la inercia de la carga
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T_{c}(s)=T_{m}(s)-T_{p}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?T_{c}(s)=T_{m}(s)-T_{p}(s)" title="T_{c}(s)=T_{m}(s)-T_{p}(s)" border="0" /></a>
 ### 3.2. 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\ddot{x}+2\dot{x}+5x=3"><img src="http://www.alciro.org/cgi/tex.cgi?\ddot{x}+2\dot{x}+5x=3" title="\ddot{x}+2\dot{x}+5x=3" border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(0)=0"><img src="http://www.alciro.org/cgi/tex.cgi?x(0)=0" title="x(0)=0" border="0" /></a> ; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\dot{x}(0)=0"><img src="http://www.alciro.org/cgi/tex.cgi?\dot{x}(0)=0" title="\dot{x}(0)=0" border="0" /></a>
 
