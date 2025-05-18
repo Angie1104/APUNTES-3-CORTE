@@ -115,7 +115,8 @@ ylabel('Salida y(t)');
 *  El electroimán produce una fuerza mecánica proporcional a la corriente en el embobinado
 *  El electroimán atrae una masa acoplada por medio de un resorte y se considera el mortiguamiento dado por la envolvente de la bobina
 
-[image](https://github.com/user-attachments/assets/2c412665-a183-4241-9a29-055e3c967e3e)
+![image](https://github.com/user-attachments/assets/de946117-cc73-4c50-b833-a55cbf1ebf9b)
+
 
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \ddot{x}+3x+2x=0 "><img src="http://www.alciro.org/cgi/tex.cgi? \ddot{x}+3x+2x=0 " title=" \ddot{x}+3x+2x=0 " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(0)=a "><img src="http://www.alciro.org/cgi/tex.cgi?x(0)=a " title="x(0)=a " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\dot{x}(0)= b"><img src="http://www.alciro.org/cgi/tex.cgi?\dot{x}(0)= b" title="\dot{x}(0)= b" border="0" /></a>
 
