@@ -99,7 +99,19 @@ ylabel('Salida y(t)');
 ```
 ![image](https://github.com/user-attachments/assets/1287853d-8748-4ea5-adca-8282ecb9a8b0)
 
+# MODELAMIENTO DE SISTEMAS CON DIAGRAMAS DE BLOQUES
+## MODELOS DE SISTEMAS COMPLEJOS
+* Se podrían modelar sistemas como un todo hallando las funciones de transferencia de cada componente
+* Otro enfoque es utilizar modelos ya desarrollados ampliamente para construir modelos más complejos
+* Aún usando este enfoque hay muchos tipos de procesos y dispositivos
+### SOLENOIDE
+Un solenoide está formado por un circuito eléctrico, un acoplamiento electromecánico (transductor) y un sistema mecánico de traslación.
 
+![image](https://github.com/user-attachments/assets/64f79d15-c074-4988-a816-6dc7368d0f7a)
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L\frac{di}{dt}+Ri= v(t)"><img src="http://www.alciro.org/cgi/tex.cgi?L\frac{di}{dt}+Ri= v(t)" title="L\frac{di}{dt}+Ri= v(t)" border="0" /></a> 
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=I(s)= V(s)\frac{1}{Ls+R}"><img src="http://www.alciro.org/cgi/tex.cgi?I(s)= V(s)\frac{1}{Ls+R}" title="I(s)= V(s)\frac{1}{Ls+R}" border="0" /></a>
 ### 3.1. 
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= \ddot{x}+3x+2x=0 "><img src="http://www.alciro.org/cgi/tex.cgi? \ddot{x}+3x+2x=0 " title=" \ddot{x}+3x+2x=0 " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(0)=a "><img src="http://www.alciro.org/cgi/tex.cgi?x(0)=a " title="x(0)=a " border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\dot{x}(0)= b"><img src="http://www.alciro.org/cgi/tex.cgi?\dot{x}(0)= b" title="\dot{x}(0)= b" border="0" /></a>
 
