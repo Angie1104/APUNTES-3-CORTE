@@ -343,7 +343,7 @@ Cofactores:
 
 * ![image](https://github.com/user-attachments/assets/8dfd37aa-bb5b-4034-a9db-8c9f06b1d3fd)
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5}{s+9}*1"<imgsrc="http://www.alciro.org/cgi/tex.cgi?P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2{s+7}*\frac{5}{s+9}*1" title="P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5{s+9}*1" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5}{s+9}*1"><img src="http://www.alciro.org/cgi/tex.cgi?P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5}{s+9}*1" title="P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5}{s+9}*1" border="0" /></a>
 
 ## 2. Amortiguadores
 Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la velocidad relativa entre sus extremos o también son aquellos que trabajan por fricción y se representa como: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" title="F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" border="0" /></a> donde "b" es la constante de fricción viscosa
