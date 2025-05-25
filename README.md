@@ -249,10 +249,7 @@ La salida de un bloque funcional corresponde a la señal de entrada (Dominio s) 
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)= (X(s)G_{1}(s)+Y(s)G_{2}(s)G_{1}(s))"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)= (X(s)G_{1}(s)+Y(s)G_{2}(s)G_{1}(s))" title="Y(s)= (X(s)G_{1}(s)+Y(s)G_{2}(s)G_{1}(s))" border="0" /></a>
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s) - Y(s) \cdot G_2(s) \cdot G_1(s) = X(s) \cdot G_1(s)
-"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s) - Y(s) \cdot G_2(s) \cdot G_1(s) = X(s) \cdot G_1(s)
-" title="Y(s) - Y(s) \cdot G_2(s) \cdot G_1(s) = X(s) \cdot G_1(s)
-" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s) - Y(s) G_2(s) G_1(s) = X(s)  G_1(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s) - Y(s) G_2(s) G_1(s) = X(s)  G_1(s)" title="Y(s) - Y(s) G_2(s) G_1(s) = X(s)  G_1(s)" border="0" /></a>
 
 RESPUESTA:
 
