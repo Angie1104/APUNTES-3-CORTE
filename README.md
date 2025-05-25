@@ -182,9 +182,21 @@ El motor de corriente continua, denominado también motor de corriente directa, 
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=I_{a}(s)=\frac{V_{a}(s)-K_{b}\omega (s)}{sL_{a}+R_{a}}"><img src="http://www.alciro.org/cgi/tex.cgi?I_{a}(s)=\frac{V_{a}(s)-K_{b}\omega (s)}{sL_{a}+R_{a}}" title="I_{a}(s)=\frac{V_{a}(s)-K_{b}\omega (s)}{sL_{a}+R_{a}}" border="0" /></a>
 
-* Despejamos X y resolvemos
+* La parte mecánica se comporta de la misma manera que en el caso anterior:
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=xs=\frac{3}{s(s^2+2s+5)}=\frac{A}{S}+\frac{Bs+C}{s^2+2s+5}"><img src="http://www.alciro.org/cgi/tex.cgi?xs=\frac{3}{s(s^2+2s+5)}=\frac{A}{S}+\frac{Bs+C}{s^2+2s+5}" title="xs=\frac{3}{s(s^2+2s+5)}=\frac{A}{S}+\frac{Bs+C}{s^2+2s+5}" border="0" /></a>
+![image](https://github.com/user-attachments/assets/3fd3a3d7-6562-497b-a695-6127fbd3c03a)
+
+![image](https://github.com/user-attachments/assets/ff8eeff5-24dc-4335-9c41-456ca3f64a9a)
+
+# ALGEBRA DE BLOQUES
+* Una herramienta que puede ayudar a entender un poco la interacción entre varios sistemas son los diagramas de bloques
+* Primer sistema de control J. Watt
+* Para explicar su sistema empezó a desarrollar los diagramas de bloques
+
+![image](https://github.com/user-attachments/assets/1f5a308c-a253-4998-9927-47da8a2651e0)  ![image](https://github.com/user-attachments/assets/a503f567-d57a-4547-87f3-adcdae624989)
+
+  
+
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s= -1 \pm  2i"><img src="http://www.alciro.org/cgi/tex.cgi?s= -1 \pm  2i" title="s= -1 \pm  2i" border="0" /></a>
 
