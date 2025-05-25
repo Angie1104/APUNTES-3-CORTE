@@ -251,6 +251,10 @@ La salida de un bloque funcional corresponde a la señal de entrada (Dominio s) 
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s) - Y(s) G_2(s) G_1(s) = X(s)  G_1(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s) - Y(s) G_2(s) G_1(s) = X(s)  G_1(s)" title="Y(s) - Y(s) G_2(s) G_1(s) = X(s)  G_1(s)" border="0" /></a>
 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)(1 - G_2(s)G_1(s)) = X(s)G_1(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)(1 - G_2(s)G_1(s)) = X(s)G_1(s)" title="Y(s)(1 - G_2(s)G_1(s)) = X(s)G_1(s)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{X(s)} = \frac{G_1(s)}{1 - G_2(s)G_1(s)}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{X(s)} = \frac{G_1(s)}{1G_2(s)G_1(s)}" title="\frac{Y(s)}{X(s)} = \frac{G_1(s)}{1 - G_2(s)G_1(s)}" border="0" /></a>
+
 RESPUESTA:
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L^{-1}[x(s)]=\frac{3}{5}-\frac{3}{5}e^-tcos(2t)-\frac{-3}{10}e^-tsen(2t)"><img src="http://www.alciro.org/cgi/tex.cgi?L^{-1}[x(s)]=\frac{3}{5}-\frac{3}{5}e^-tcos(2t)-\frac{-3}{10}e^-tsen(2t)" title="L^{-1}[x(s)]=\frac{3}{5}-\frac{3}{5}e^-tcos(2t)-\frac{-3}{10}e^-tsen(2t)" border="0" /></a>
