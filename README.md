@@ -264,7 +264,16 @@ La salida de un bloque funcional corresponde a la señal de entrada (Dominio s) 
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq= X_2(s): \\
 Y_2(s) = \frac{G_4(s)X_2(s)}{1 + G_4(s)} \\Y(s) = Y_3(s) + Y_2(s),  X_1(s) = 0 \Rightarrow Y_3(s) = 0 \\Y(s) = Y_2(s) = \frac{G_4(s)}{1 + G_4(s)}X_2(s) \\\Rightarrow \frac{Y(s)}{X_2(s)} = \frac{G_4(s)}{1 + G_4(s)}}"><img src="http://www.alciro.org/cgi/tex.cgi? X_2(s): \\Y_2(s) = \frac{G_4(s)X_2(s)}{1 + G_4(s)} \\Y(s) = Y_3(s) + Y_2(s),  X_1(s) = 0 \Rightarrow Y_3(s) = 0 \\Y(s) = Y_2(s) = \frac{G_4(s)}{1 + G_4(s)}X_2(s) \\\Rightarrow \frac{Y(s)}{X_2(s)} = \frac{G_4(s)}{1 + G_4(s)}}" title=" X_2(s): \\Y_2(s) = \frac{G_4(s)X_2(s)}{1 + G_4(s)} \\Y(s) = Y_3(s) + Y_2(s),  X_1(s) = 0 \Rightarrow Y_3(s) = 0 \\Y(s) = Y_2(s) = \frac{G_4(s)}{1 + G_4(s)}X_2(s) \\\Rightarrow \frac{Y(s)}{X_2(s)} =\frac{G_4(s)}{1 + G_4(s)}}" border="0" /></a>
-# SISTEMAS MECANICOS 
+
+![image](https://github.com/user-attachments/assets/a5137ec7-5d78-47ca-8d7c-fc6d45fc3568)
+
+# DIAGRAMA DE FLUJO DE SEÑALES
+* Este tipo de diagramas permite otra forma de representación de los sistemas más complejos
+* Se utilizan para obtener de una manera más sencilla la función de transferencia total del Sistema
+* La formula de Mason permite calcular la función detrasferencia de sistemas muy complejos
+
+![image](https://github.com/user-attachments/assets/157285f7-2712-40c5-9af6-daafa464b308)
+
 Son un conjunto de elementos que transforman y transmiten movimiento y fuerza. Están compuestos por componentes físicos como motores, engranes, y mecanismos.
 
 ![image](https://github.com/user-attachments/assets/ad06efb5-f9b2-4016-aa4f-6b34a2611a47)  
