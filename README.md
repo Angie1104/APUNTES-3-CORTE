@@ -172,10 +172,11 @@ El motor de corriente continua, denominado también motor de corriente directa, 
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" title="V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" border="0" /></a>
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" title="V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" border="0" /></a>
-
 * El voltaje inducido en la armadura es proporcional a la velocidad angular del eje:
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(s)(s^2+2s+5)\frac{3}{5}"><img src="http://www.alciro.org/cgi/tex.cgi?x(s)(s^2+2s+5)\frac{3}{5}" title="x(s)(s^2+2s+5)\frac{3}{5}" border="0" /></a>  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{b}(s)=K_{b}\omega(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{b}(s)=K_{b}\omega(s)" title="V_{b}(s)=K_{b}\omega(s)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{a}(s)=(sL_{a} R_{a})I_{a}(s) V_{b}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{a}(s)=(sL_{a} R_{a})I_{a}(s) V_{b}(s)" title="V_{a}(s)=(sL_{a} R_{a})I_{a}(s) V_{b}(s)" border="0" /></a>
+ 
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{b}(s)=K_{b}\omega(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{b}(s)=K_{b}\omega(s)" title="V_{b}(s)=K_{b}\omega(s)" border="0" /></a>
 
 * Combinando estas ecuaciones se obtiene
 
