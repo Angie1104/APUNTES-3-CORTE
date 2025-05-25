@@ -322,6 +322,20 @@ Ganancias de lazos:
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L_{1} = -G_{4}H_{1} \\
 L_{2}= -G_{2}G_{7}H_{2}\\L_{3}= -G_{6}G_{4}G_{5}H_{2}\\L_{4}= -G_{2}G_{3}G_{4}G_{5}H_{2}\\"><img src="http://www.alciro.org/cgi/tex.cgi?L_{1} = G_{4}H_{1} \\L_{2}= -G_{2}G_{7}H_{2}\\L_{3}= -G_{6}G_{4}G_{5}H_{2}\\L_{4}= -G_{2}G_{3}G_{4}G_{5}H_{2}\\" title="L_{1} = -G_{4}H_{1} \\L_{2}= -G_{2}G_{7}H_{2}\\L_{3}= -G_{6}G_{4}G_{5}H_{2}\\L_{4}= -G_{2}G_{3}G_{4}G_{5}H_{2}\\" border="0" /></a>
 
+Determinante:
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta = 1 - (L_{1} + L_{2} + L_{3} + L_{4}) + L_{1} L_{2}"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta = 1 - (L_{1} + L_{2} + L_{3} + L_{4})L_{1} L_{2}" title="\Delta = 1 - (L_{1} + L_{2} + L_{3} + L_{4}) + L_{1} L_{2}" border="0" /></a>
+
+Cofactores: 
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta_{1}= 1"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta_{1}= 1" title="\Delta_{1}= 1" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta_{2}= 1
+"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta_{2}= 1" title="\Delta_{2}= 1" border="0"/></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta_{3}= 1-L_{1}"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta_{3}= 1-L_{1}" title="\Delta_{3}= 1-L_{1}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L_{1} "><img src="http://www.alciro.org/cgi/tex.cgi?L_{1} " title="L_{1} " border="0" /></a> No toca la trayectoria
 ## 2. Amortiguadores
 Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la velocidad relativa entre sus extremos o también son aquellos que trabajan por fricción y se representa como: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" title="F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" border="0" /></a> donde "b" es la constante de fricción viscosa
 
