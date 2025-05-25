@@ -287,14 +287,8 @@ Y_2(s) = \frac{G_4(s)X_2(s)}{1 + G_4(s)} \\Y(s) = Y_3(s) + Y_2(s),  X_1(s) = 0 \
 
 ![image](https://github.com/user-attachments/assets/ebec1346-2bae-4e3a-9f8f-32f080a2dc7a)
 
-## 1. Resortes
-Un resorte es un objeto que puede ser deformado por una fuerza y volver a su forma original en la ausencia de esta. Para estos casos se utiliza la Ley de Hooke la cuál nos dice que dentro de ciertos límites, la fuerza requerida para estirar un objeto elástico, como un resorte de metal, es directamente proporcional a la extensión del resorte
-
-![image](https://github.com/user-attachments/assets/faabd921-5d69-4695-9d8a-25eb5a383f60)  ![image](https://github.com/user-attachments/assets/42342f07-5d69-4067-b190-8313033f2fab)
-
-
-
-La Ley de Hooke se representa como : <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=kx => k(x_{1}-x_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=kx => k(x_{1}-x_{2})" title="F=kx => k(x_{1}-x_{2})" border="0" /></a>
+## COMPARACION DIAGRAMAAS DE BLOQUES Y FLUJOS DE SEÑALES
+![image](https://github.com/user-attachments/assets/fe997527-70cb-411f-8976-b6253d99d977)
 
 ## 2. Amortiguadores
 Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la velocidad relativa entre sus extremos o también son aquellos que trabajan por fricción y se representa como: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" title="F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" border="0" /></a> donde "b" es la constante de fricción viscosa
