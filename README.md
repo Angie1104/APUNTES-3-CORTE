@@ -193,7 +193,8 @@ El motor de corriente continua, denominado también motor de corriente directa, 
 * Primer sistema de control J. Watt
 * Para explicar su sistema empezó a desarrollar los diagramas de bloques
 
-![image](https://github.com/user-attachments/assets/1f5a308c-a253-4998-9927-47da8a2651e0)  ![image](https://github.com/user-attachments/assets/a503f567-d57a-4547-87f3-adcdae624989)
+![image](https://github.com/user-attachments/assets/dc86bae0-46f3-4bb2-a1b9-f1de15879eef)
+![image](https://github.com/user-attachments/assets/a503f567-d57a-4547-87f3-adcdae624989)
 
   
 
