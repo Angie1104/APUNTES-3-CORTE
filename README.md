@@ -162,18 +162,24 @@ El motor de corriente continua, denominado también motor de corriente directa, 
 
 ## MOTOR DC CORRIENTE DE ARMADURA
 
+![image](https://github.com/user-attachments/assets/6de8dd96-6f93-4b72-94e3-17fccd2fd55a)
+
 * La corriente de campo se asume constate por lo tanto el Torque es:
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)= K_{m}I_{c}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)= K_{m}I_{c}(s)" title="T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)= K_{m}I_{c}(s)" border="0" /></a>
 
 * La corriente de armadura se relaciona con el voltaje aplicado a la armadura por:
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" title="V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" border="0" /></a> <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{b}(s)=K_{b}\omega(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{b}(s)=K_{b}\omega(s)" title="V_{b}(s)=K_{b}\omega(s)" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" title="V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" title="V_{a}(s)=(sL_{a}+R_{a})I_{a}(s)+V_{b}(s)" border="0" /></a>
 
 * El voltaje inducido en la armadura es proporcional a la velocidad angular del eje:
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(s)(s^2+2s+5)\frac{3}{5}"><img src="http://www.alciro.org/cgi/tex.cgi?x(s)(s^2+2s+5)\frac{3}{5}" title="x(s)(s^2+2s+5)\frac{3}{5}" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(s)(s^2+2s+5)\frac{3}{5}"><img src="http://www.alciro.org/cgi/tex.cgi?x(s)(s^2+2s+5)\frac{3}{5}" title="x(s)(s^2+2s+5)\frac{3}{5}" border="0" /></a>  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=V_{b}(s)=K_{b}\omega(s)"><img src="http://www.alciro.org/cgi/tex.cgi?V_{b}(s)=K_{b}\omega(s)" title="V_{b}(s)=K_{b}\omega(s)" border="0" /></a>
+
+* Combinando estas ecuaciones se obtiene
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=I_{a}(s)=\frac{V_{a}(s)-K_{b}\omega (s)}{sL_{a}+R_{a}}"><img src="http://www.alciro.org/cgi/tex.cgi?I_{a}(s)=\frac{V_{a}(s)-K_{b}\omega (s)}{sL_{a}+R_{a}}" title="I_{a}(s)=\frac{V_{a}(s)-K_{b}\omega (s)}{sL_{a}+R_{a}}" border="0" /></a>
 
 * Despejamos X y resolvemos
 
