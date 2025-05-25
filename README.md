@@ -228,13 +228,31 @@ La salida de un bloque funcional corresponde a la señal de entrada (Dominio s) 
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y_{2}(s)= U_{2}(s)*G_{2}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y_{2}(s)= U_{2}(s)*G_{2}(s)" title="Y_{2}(s)= U_{2}(s)*G_{2}(s)" border="0" /></a> , <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y_{2}(s)= U_{1}Y_{1}(s)*G_{2}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y_{2}(s)= U_{1}Y_{1}(s)*G_{2}(s)" title="Y_{2}(s)= U_{1}Y_{1}(s)*G_{2}(s)" border="0" /></a>
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{3}{-1+2i}*\frac{(-1+2i)}{(-1+2i)}=-B+2Bi+C"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{3}{-1+2i}*\frac{(-1+2i)}{(-1+2i)}=-B+2Bi+C" title="\frac{3}{-1+2i}*\frac{(-1+2i)}{(-1+2i)}=-B+2Bi+C" border="0" /></a>
+![image](https://github.com/user-attachments/assets/3bdbf49e-16e1-4c14-a2f0-addcfdda75b2)
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{-3-6i}{5}= -B+2B+C"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{-3-6i}{5}= -B+2B+C" title="\frac{-3-6i}{5}= -B+2B+C" border="0" /></a>
+## TABLA DE BLOQUES 
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{-6}{5}= 2B => B= \frac{-6}{10}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{-6}{5}= 2B => B= \frac{-6}{10}" title="\frac{-6}{5}= 2B => B= \frac{-6}{10}" border="0" /></a>
+![image](https://github.com/user-attachments/assets/44aa3959-323d-4810-94de-cc312a7db907)
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=C= \frac{-3}{5}\frac{-3}{5}= \frac{-6}{5}"><img src="http://www.alciro.org/cgi/tex.cgi?C= \frac{-3}{5}\frac{-3}{5}= \frac{-6}{5}" title="C= \frac{-3}{5}\frac{-3}{5}= \frac{-6}{5}" border="0" /></a>
+## LAZO DE REALIMENTACIÓN DE POSITIVO
+![image](https://github.com/user-attachments/assets/95bcac4f-06b2-41a4-b1f7-7e45a46b7a94)
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=E(s)=X(s)+Y_{1}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?E(s)=X(s)+Y_{1}(s)" title="E(s)=X(s)+Y_{1}(s)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)= E(s)G_{1}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)= E(s)G_{1}(s)" title="Y(s)= E(s)G_{1}(s)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y_{1}(s)= Y(s)G_{2}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y_{1}(s)= Y(s)G_{2}(s)" title="Y_{1}(s)= Y(s)G_{2}(s)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)= (X(s)+ Y{_{1}(s))G_{1}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)= (X(s)+ Y{_{1}(s))G_{1}(s)" title="Y(s)= (X(s)+ Y{_{1}(s))G_{1}(s)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)= (X(s)+ Y(s)G_{2}(s))G_{1}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)= (X(s)+ Y(s)G_{2}(s))G_{1}(s)" title="Y(s)= (X(s)+ Y(s)G_{2}(s))G_{1}(s)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)= (X(s)G_{1}(s)+Y(s)G_{2}(s)G_{1}(s))"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)= (X(s)G_{1}(s)+Y(s)G_{2}(s)G_{1}(s))" title="Y(s)= (X(s)G_{1}(s)+Y(s)G_{2}(s)G_{1}(s))" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s) - Y(s) \cdot G_2(s) \cdot G_1(s) = X(s) \cdot G_1(s)
+"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s) - Y(s) \cdot G_2(s) \cdot G_1(s) = X(s) \cdot G_1(s)
+" title="Y(s) - Y(s) \cdot G_2(s) \cdot G_1(s) = X(s) \cdot G_1(s)
+" border="0" /></a>
 
 RESPUESTA:
 
