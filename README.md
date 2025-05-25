@@ -306,7 +306,7 @@ Y_2(s) = \frac{G_4(s)X_2(s)}{1 + G_4(s)} \\Y(s) = Y_3(s) + Y_2(s),  X_1(s) = 0 \
 * Δ = 1 − (suma ganancias de los lazos) + (suma producto de 2 lazos que no se tocan) – (suma producto de 3 lazos que no setocan)
 * Δ𝑘 = 1 −(suma ganancias lazos que no toquen la trayectoria 𝑃𝑘)+(suma ganancias 2 lazos que no toquen la trayectoria 𝑃𝑘 y no se toquen entre sí)-(suma ganancias 3 lazos que no toquen la trayectoria 𝑃𝑘 y no se toquen entre sí)
 ### Ejemplos
-![image](https://github.com/user-attachments/assets/8cf2d1d7-1d50-4855-bba8-19bd5381cb53)
+* ![image](https://github.com/user-attachments/assets/8cf2d1d7-1d50-4855-bba8-19bd5381cb53)
 
 Ganancias de trayectorias directas: 
 
@@ -336,6 +336,15 @@ Cofactores:
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta_{3}= 1-L_{1}"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta_{3}= 1-L_{1}" title="\Delta_{3}= 1-L_{1}" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L_{1} "><img src="http://www.alciro.org/cgi/tex.cgi?L_{1} " title="L_{1} " border="0" /></a> No toca la trayectoria
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{C(s){R(s)}=\frac{1}{\Delta }(P_{1}\Delta _{1}+P_{2}\Delta _{2}+P_{3}\Delta _{3})"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{C(s)}{R(s)}=\frac{1}{\Delta }(P_{1}\Delta_{1}+P_{2}\Delta _{2}+P_{3}\Delta _{3})" title="\frac{C(s)}{R(s)}=\frac{1}{\Delta }(P_{1}\Delta _{1}+P_{2}\Delta _{2}+P_{3}\Delta _{3})" border="0" /></a>
+
+![image](https://github.com/user-attachments/assets/102e0071-1b9b-4424-b4f2-325b1f099bd2)
+
+* ![image](https://github.com/user-attachments/assets/8dfd37aa-bb5b-4034-a9db-8c9f06b1d3fd)
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5}{s+9}*1"<imgsrc="http://www.alciro.org/cgi/tex.cgi?P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2{s+7}*\frac{5}{s+9}*1" title="P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5{s+9}*1" border="0" /></a>
+
 ## 2. Amortiguadores
 Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la velocidad relativa entre sus extremos o también son aquellos que trabajan por fricción y se representa como: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" title="F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" border="0" /></a> donde "b" es la constante de fricción viscosa
 
