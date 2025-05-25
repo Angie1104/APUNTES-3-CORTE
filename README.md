@@ -274,9 +274,18 @@ Y_2(s) = \frac{G_4(s)X_2(s)}{1 + G_4(s)} \\Y(s) = Y_3(s) + Y_2(s),  X_1(s) = 0 \
 
 ![image](https://github.com/user-attachments/assets/157285f7-2712-40c5-9af6-daafa464b308)
 
-Son un conjunto de elementos que transforman y transmiten movimiento y fuerza. Están compuestos por componentes físicos como motores, engranes, y mecanismos.
+## ELEMENTOS DE LOS DIAGRAMAS DE FLUJOS DE SEÑALES
+* Nodo: Representan las señales de entrada o salida del Sistema
+* Se representa por medio de un círculo con una etiqueta que indique el nombre de la señal
 
-![image](https://github.com/user-attachments/assets/ad06efb5-f9b2-4016-aa4f-6b34a2611a47)  
+![image](https://github.com/user-attachments/assets/bf26e0cf-a7f1-46aa-8d6a-0f514c630376)
+
+* Flecha: Representa la relación entre las variables delsistema
+ * Se representa por medio de flechas que indicando el sentido de la relación
+ * La fleche sale de la señal (Nodo) de entrada y llega a la señal de salida (Nodo)
+ * Se agrega una etiqueta a la flecha para indicar la función de transferencia que relaciona entrada y la salida
+
+![image](https://github.com/user-attachments/assets/ebec1346-2bae-4e3a-9f8f-32f080a2dc7a)
 
 ## 1. Resortes
 Un resorte es un objeto que puede ser deformado por una fuerza y volver a su forma original en la ausencia de esta. Para estos casos se utiliza la Ley de Hooke la cuál nos dice que dentro de ciertos límites, la fuerza requerida para estirar un objeto elástico, como un resorte de metal, es directamente proporcional a la extensión del resorte
