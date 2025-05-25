@@ -162,10 +162,11 @@ El motor de corriente continua, denominado también motor de corriente directa, 
 
 ## MOTOR DC CORRIENTE DE ARMADURA
 
-La corriente de campo se asume constate por lo tanto el Torque es:
+* La corriente de campo se asume constate por lo tanto el Torque es:
 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)= K_{m}I_{c}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)= K_{m}I_{c}(s)" title="T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)= K_{m}I_{c}(s)" border="0" /></a>
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=[s^2x(S)-s(0)-0]+2[sx(s)-0]+5x(s)=\frac{3}{s}"><img src="http://www.alciro.org/cgi/tex.cgi?[s^2x(S)-s(0)-0]+2[sx(s)-0]+5x(s)=\frac{3}{s}" title="[s^2x(S)-s(0)-0]+2[sx(s)-0]+5x(s)=\frac{3}{s}" border="0" /></a>
+* La corriente de armadura se relaciona con el voltaje aplicado a la armadura por:
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=[s^2x(s)+2sx(s)+5x(s)]=\frac{3}{s}"><img src="http://www.alciro.org/cgi/tex.cgi?[s^2x(s)+2sx(s)+5x(s)]=\frac{3}{s}" title="[s^2x(s)+2sx(s)+5x(s)]=\frac{3}{s}" border="0" /></a>
 
