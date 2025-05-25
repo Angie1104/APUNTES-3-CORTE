@@ -289,7 +289,22 @@ Y_2(s) = \frac{G_4(s)X_2(s)}{1 + G_4(s)} \\Y(s) = Y_3(s) + Y_2(s),  X_1(s) = 0 \
 
 ## COMPARACION DIAGRAMAAS DE BLOQUES Y FLUJOS DE SEÑALES
 ![image](https://github.com/user-attachments/assets/fe997527-70cb-411f-8976-b6253d99d977)
+### DEFINICIONES
+* Camino o trayectoria: Camino o trayecto es un recorrido de ramas conectadas en el sentido de las flechas de las ramas.
+* Si no se cruza ningún nodo más de una vez, el camino o trayecto es abierto
+* Si el camino o trayecto finaliza en el mismo nodo del cual partió, y no cruza ningún otro más de una vez, es un camino o trayecto cerrado
+* Ganancia de lazo: La ganancia de lazo es el producto de las ganancias de ramas de un lazo.
+* Trayecto o camino directo: Trayecto directo es el camino o trayecto de un nodo de entrada a un nodo de salida, sin cruzar ningún nodo más de una vez.
+* Ganancia de trayecto directo: La ganancia de trayecto directo es el producto de las ganancias de rama de un camino o trayecto directo.
+* Lazo: Un lazo es un camino o trayecto cerrado.
+* Ganancia de lazo: La ganancia de lazo es el producto de las ganancias de ramas de un lazo.
 
+## FORMULA DE MASON
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P = \frac{1}{\Delta} \sum_k P_k \Delta_k"><img src="http://www.alciro.org/cgi/tex.cgi?P = \frac{1}{\Delta} \sum_k P_k \Delta_k" title="P = \frac{1}{\Delta} \sum_k P_k \Delta_k" border="0" /></a>
+
+* Pk= ganancia de caminos directos
+* Δ = 1 − (suma ganancias de los lazos) + (suma producto de 2 lazos que no se tocan) – (suma producto de 3 lazos que no setocan)
+* Δ𝑘 = 1 −(suma ganancias lazos que no toquen la trayectoria 𝑃𝑘)+(suma ganancias 2 lazos que no toquen la trayectoria 𝑃𝑘 y no se toquen entre sí)-(suma ganancias 3 lazos que no toquen la trayectoria 𝑃𝑘 y no se toquen entre sí)+
 ## 2. Amortiguadores
 Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la velocidad relativa entre sus extremos o también son aquellos que trabajan por fricción y se representa como: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" title="F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" border="0" /></a> donde "b" es la constante de fricción viscosa
 
