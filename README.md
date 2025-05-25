@@ -4,6 +4,7 @@ Una función de transferencia es un modelo matemático que, a través de un coci
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{salida}{entrada}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{salida}{entrada}" title="\frac{salida}{entrada}" border="0" /></a>  =  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)}" title="\frac{Y(s)}{U(s)}" border="0" /></a>
 
+
 * Todas las condiciones iniciales de la ecuación diferencial son iguales a 0
 
 ## CLASIFICACIÓN DE LAS FUNCIONES DE TRANSFERENCIA
@@ -345,6 +346,23 @@ Cofactores:
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5}{s+9}*1"><img src="http://www.alciro.org/cgi/tex.cgi?P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5}{s+9}*1" title="P_{1}= 1*\frac{1}{s+1}*\frac{1}{s^{2}+8}*\frac{2}{s+7}*\frac{5}{s+9}*1" border="0" /></a>
 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P_{2}= 1*\frac{1}{s+1}*\frac{0.5}{s+6}*\frac{1}{s^{2}+5}*\frac{1}{s}*1"><img src="http://www.alciro.org/cgi/tex.cgi?P_{2}= 1*\frac{1}{s+1}*\frac{0.5}{s+6}*\frac{1}{s^{2}+5}*\frac{1}{s}*1" title="P_{2}= 1*\frac{1}{s+1}*\frac{0.5}{s+6}*\frac{1}{s^{2}+5}*\frac{1}{s}*1" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=P_{3}= 1*\frac{1}{s+5}*25*\frac{1}{s}*1"><img src="http://www.alciro.org/cgi/tex.cgi?P_{3}= 1*\frac{1}{s+5}*25*\frac{1}{s}*1" title="P_{3}= 1*\frac{1}{s+5}*25*\frac{1}{s}*1" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L_{1}= -10*\frac{1}{s^{2}+8}= \frac{-10}{s^{2}+8}"><img src="http://www.alciro.org/cgi/tex.cgi?L_{1}= -10*\frac{1}{s^{2}+8}= \frac{-10}{s^{2}+8}" title="L_{1}= -10*\frac{1}{s^{2}+8}= \frac{-10}{s^{2}+8}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L_{2}= -3"><img src="http://www.alciro.org/cgi/tex.cgi?L_{2}= -3" title="L_{2}= -3" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L_{3}=\frac{0.5}{s+6}*-12= \frac{-6}{s+6} "><img src="http://www.alciro.org/cgi/tex.cgi?L_{3}=\frac{0.5}{s+6}*-12= \frac{-6}{s+6} " title="L_{3}=\frac{0.5}{s+6}*-12= \frac{-6}{s+6} " border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta={1-(L_{1}+L_{2}+L_{3}+L_{4})(L_{1}L_{2})+(L_{1}L_{3})+(L_{1}L_{4})+(L_{2}L_{3})+(L_{2}L_{4})-(L_{1}L_{2}L_{3})-(L_{1}L_{2}L_{4})}"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta={1-(L_{1}+L_{2}+L_{3}+L_{4})(L_{1}L_{2})+(L_{1}L_{3})+(L_{1}L_{4})+(L_{2}L_{3})+(L_{2}L_{4})-(L_{1}L_{2}L_{3})-(L_{1}L_{2}L_{4})}" title="\Delta={1-(L_{1}+L_{2}+L_{3}+L_{4})(L_{1}L_{2})+(L_{1}L_{3})+(L_{1}L_{4})+(L_{2}L_{3})+(L_{2}L_{4})-(L_{1}L_{2}L_{3})-(L_{1}L_{2}L_{4})}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta_{1}= 1-(L_{3}+L_{4})"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta_{1}= 1-(L_{3}+L_{4})" title="\Delta_{1}= 1-(L_{3}+L_{4})" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta_{2}= 1-(L_{2}+L_{3})+(L_{2}L_{3})"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta_{2}= 1-(L_{2}+L_{3})+(L_{2}L_{3})" title="\Delta_{2}= 1-(L_{2}+L_{3})+(L_{2}L_{3})" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta_{3}= 1-(L_{1}+L_{2})+(L_{1}L_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta_{3}= 1-(L_{1}+L_{2})+(L_{1}L_{2})" title="\Delta_{3}= 1-(L_{1}+L_{2})+(L_{1}L_{2})" border="0" /></a>
 ## 2. Amortiguadores
 Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la velocidad relativa entre sus extremos o también son aquellos que trabajan por fricción y se representa como: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" title="F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" border="0" /></a> donde "b" es la constante de fricción viscosa
 
