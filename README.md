@@ -196,18 +196,37 @@ El motor de corriente continua, denominado también motor de corriente directa, 
 ![image](https://github.com/user-attachments/assets/dc86bae0-46f3-4bb2-a1b9-f1de15879eef)
 ![image](https://github.com/user-attachments/assets/a503f567-d57a-4547-87f3-adcdae624989)
 
-  
+## ELEMENTOS DE UN DIAGRAMA DE BLOQUE
+* Bloque Funcional: es un símbolo para representar la operación matemática que sobre la señal de entrada hace el bloque para producir la salida
 
+![image](https://github.com/user-attachments/assets/a282aa75-e8c9-4820-b986-c6d916080e57)
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=s= -1 \pm  2i"><img src="http://www.alciro.org/cgi/tex.cgi?s= -1 \pm  2i" title="s= -1 \pm  2i" border="0" /></a>
+* Las flechas en un diagrama de bloques representan señales y su dirección de flujo. Estas indican que la señal solo puede moverse en un sentido (propiedad unilateral): hacia el bloque como entrada y desde el bloque como salida.
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=A=\frac{3s}{s(s^2+2s+5)}\mid _{s=0}"><img src="http://www.alciro.org/cgi/tex.cgi?A=\frac{3s}{s(s^2+2s+5)}\mid _{s=0}" title="A=\frac{3s}{s(s^2+2s+5)}\mid _{s=0}" border="0" /></a>
+![image](https://github.com/user-attachments/assets/d38ef71d-23fd-4942-a8ab-75a226546956)
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=A=\frac{3}{5}"><img src="http://www.alciro.org/cgi/tex.cgi?A=\frac{3}{5}" title="A=\frac{3}{5}" border="0" /></a> = 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{3}{5}\mid _{s=1+2i}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{3}{5}\mid _{s=1+2i}" title="\frac{3}{5}\mid _{s=1+2i}" border="0" /></a>
-= <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Bs+c\mid _{s=1+2i}"><img src="http://www.alciro.org/cgi/tex.cgi?Bs+c\mid _{s=1+2i}" title="Bs+c\mid _{s=1+2i}" border="0" /></a>
+* Punto Suma: Realiza operaciones (suma o resta) entre señales únicamente. El signo más o el signo menos en
+cada punta de flecha indica si la señal debe sumarse o restarse. Es importante que las cantidades que se sumen o resten tengan las mismas dimensiones y las mismas unidades.
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{3}{-1+2i}=-B+2Bi+C"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{3}{-1+2i}=-B+2Bi+C" title="\frac{3}{-1+2i}=-B+2Bi+C" border="0" /></a>
+![image](https://github.com/user-attachments/assets/0bb7e3d6-3ffe-4d46-a2ef-6b6518855010)
+
+* Un punto de ramificación es aquel a partir del cual la señal de un bloque va de modo concurrente a otros bloques o puntos de suma
+
+![image](https://github.com/user-attachments/assets/60736fe0-7afd-480c-8f5e-9b96dc6bc5f3)
+
+## INTERPRETACIÓN DEL DIAGRAMA 
+La salida de un bloque funcional corresponde a la señal de entrada (Dominio s) multiplicada por por la función de transferencia del bloque.
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)= U(s)*G(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)= U(s)*G(s)" title="Y(s)= U(s)*G(s)" border="0" /></a>
+## BLOQUES EN CASCADA
+
+* Si se tienen 2 sistemas interconectados
+
+![image](https://github.com/user-attachments/assets/3bb5a26b-71a3-47b3-81f0-9c812e5fc7da)
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y_{1}(s)= U_{1}(s)*G_{1}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y_{1}(s)= U_{1}(s)*G_{1}(s)" title="Y_{1}(s)= U_{1}(s)*G_{1}(s)" border="0" /></a> , <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y_{2}(s)= U_{1}(s)*G_{2}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y_{2}(s)= U_{1}(s)*G_{2}(s)" title="Y_{2}(s)= U_{1}(s)*G_{2}(s)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y_{2}(s)= U_{2}(s)*G_{2}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y_{2}(s)= U_{2}(s)*G_{2}(s)" title="Y_{2}(s)= U_{2}(s)*G_{2}(s)" border="0" /></a> , <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y_{2}(s)= U_{1}Y_{1}(s)*G_{2}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?Y_{2}(s)= U_{1}Y_{1}(s)*G_{2}(s)" title="Y_{2}(s)= U_{1}Y_{1}(s)*G_{2}(s)" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{3}{-1+2i}*\frac{(-1+2i)}{(-1+2i)}=-B+2Bi+C"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{3}{-1+2i}*\frac{(-1+2i)}{(-1+2i)}=-B+2Bi+C" title="\frac{3}{-1+2i}*\frac{(-1+2i)}{(-1+2i)}=-B+2Bi+C" border="0" /></a>
 
