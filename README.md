@@ -149,10 +149,16 @@ El motor de corriente continua, denominado también motor de corriente directa, 
 * El torque aplicado a la carga es el desarrollado por el motor menos la inercia de la carga
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=T_{c}(s)=T_{m}(s)-T_{p}(s)"><img src="http://www.alciro.org/cgi/tex.cgi?T_{c}(s)=T_{m}(s)-T_{p}(s)" title="T_{c}(s)=T_{m}(s)-T_{p}(s)" border="0" /></a>
-### 3.2. 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\ddot{x}+2\dot{x}+5x=3"><img src="http://www.alciro.org/cgi/tex.cgi?\ddot{x}+2\dot{x}+5x=3" title="\ddot{x}+2\dot{x}+5x=3" border="0" /></a>; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=x(0)=0"><img src="http://www.alciro.org/cgi/tex.cgi?x(0)=0" title="x(0)=0" border="0" /></a> ; <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\dot{x}(0)=0"><img src="http://www.alciro.org/cgi/tex.cgi?\dot{x}(0)=0" title="\dot{x}(0)=0" border="0" /></a>
 
-* Aplicamos la transformada de LaPlace
+* El torque aplicado (parte mecánica) a la carga se comporta como un Sistema rotacional clásico que considera la inercia y la fricción mecánica
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=J\frac{d^{2}\theta }{dt^{2}}+b\frac{d\theta }{dt}+k\theta=\tau (t)"><img src="http://www.alciro.org/cgi/tex.cgi?J\frac{d^{2}\theta }{dt^{2}}+b\frac{d\theta }{dt}+k\theta=\tau (t)" title="J\frac{d^{2}\theta }{dt^{2}}+b\frac{d\theta }{dt}+k\theta=\tau (t)" border="0" /></a>
+
+* La conexión de los modelos se realiza de la siguiente manera:
+
+![image](https://github.com/user-attachments/assets/bd4cadca-7f76-43a7-8214-4a804307deb5)  ![image](https://github.com/user-attachments/assets/c8df3a23-5b0c-4606-b911-bedd2cf11353)
+
+![image](https://github.com/user-attachments/assets/19e24615-ce9b-4ffc-b6a6-7c43ae3ebbf1)
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=[s^2x(S)-sx(0)-\dot{x}]+2[s(x)(s)-x(0)]+5x(s)=\frac{3}{s}"><img src="http://www.alciro.org/cgi/tex.cgi?[s^2x(S)-sx(0)-\dot{x}]+2[s(x)(s)-x(0)]+5x(s)=\frac{3}{s}" title="[s^2x(S)-sx(0)-\dot{x}]+2[s(x)(s)-x(0)]+5x(s)=\frac{3}{s}" border="0" /></a>
 
