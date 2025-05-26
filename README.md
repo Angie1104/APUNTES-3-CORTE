@@ -442,26 +442,134 @@ b = 1\\c = R_{1}"><img src="http://www.alciro.org/cgi/tex.cgi?a = R_{1} A_{1},\\
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\mathcal{L}^{-1}\{Y(s)\} = y(t) = AK \left(1 - e^{-\frac{t}{\tau}}\right)"><img src="http://www.alciro.org/cgi/tex.cgi?\mathcal{L}^{-1}\{Y(s)\} = y(t) = AK \left(1 - e^{-\frac{t}{\tau}}\right)" title="\mathcal{L}^{-1}\{Y(s)\} = y(t) = AK \left(1 - e^{-\frac{t}{\tau}}\right)" border="0" /></a>
 
+## RESPUESTA TEMPORAL SISTEMA DE PRIMER ORDEN
+![image](https://github.com/user-attachments/assets/b68a7a9b-b121-426f-b596-75ff01555f10)
 
-### Ejemplo
+## RESPUESTA GRÁFICA DE UN SISTEMA DE PRIMER ORDEN
+```
+% Parámetros
+AK = 1;
+tau = 1;
 
-![image](https://github.com/user-attachments/assets/36b5a84c-964a-4658-b8ab-84f993f0ce58)
+% Tiempo
+t = linspace(0, 5, 500);
 
-![image](https://github.com/user-attachments/assets/c173a626-9e99-4dac-abba-781a7efd66ee)
+% Respuesta al escalón unitario
+y = AK * (1 - exp(-t / tau));
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U-FR-Ff= m*a"><img src="http://www.alciro.org/cgi/tex.cgi?U-FR-Ff= m*a" title="U-FR-Ff= m*a" border="0" /></a>
+% También graficamos -exp(-t)
+y_neg_exp = -exp(-t);
 
-*FR podemos reemplazarla en la ecuación por: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=K_{2}*y(t)"><img src="http://www.alciro.org/cgi/tex.cgi?K_{2}*y(t)" title="K_{2}*y(t)" border="0" /></a>*
+% Gráfica
+figure;
+plot(t, y, 'b', 'LineWidth', 2); hold on;
+plot(t, y_neg_exp, '--k', 'LineWidth', 1.5);
+grid on;
+xlabel('tiempo (segundos)');
+ylabel('Amplitud');
+title('Respuesta al escalón unitario de un sistema de primer orden');
+legend('y = 1 - exp(-t)', '-exp(-t)');
+```
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U(t)-K_{2}*y(t)-Ff= m*a"><img src="http://www.alciro.org/cgi/tex.cgi?U(t)-K_{2}*y(t)-Ff= m*a" title="U(t)-K_{2}*y(t)-Ff= m*a" border="0" /></a>
+![image](https://github.com/user-attachments/assets/b28bab5c-e180-4079-9836-e126d27e196e)
 
-*Ff podemos reemplazarla por: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Ff= K_{1}*\frac{dy(t)}{dt}= K_{1}* y'(t)"><img src="http://www.alciro.org/cgi/tex.cgi?Ff= K_{1}*\frac{dy(t)}{dt}= K_{1}* y'(t)" title="Ff= K_{1}*\frac{dy(t)}{dt}= K_{1}* y'(t)" border="0" /></a>*
+## RESPUESTA NATURAL Y FORZADA DE UN SISTEMA DE PRIMER ORDEN
+```
+% Tiempo de simulación
+t = 0:0.01:10; % desde 0 hasta 10 segundos con paso de 0.01
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U(t)-K_{2}* y(t)-K_{1}*\frac{dy(t)}{dt}= m*a"><img src="http://www.alciro.org/cgi/tex.cgi?U(t)-K_{2}* y(t)-K_{1}*\frac{dy(t)}{dt}= m*a" title="U(t)-K_{2}* y(t)-K_{1}*\frac{dy(t)}{dt}= m*a" border="0" /></a>
+% Entrada escalón unitario
+r = ones(size(t));
 
-*a podemos reemplazarla por: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq={y}\'\'(t)"><img src="http://www.alciro.org/cgi/tex.cgi?{y}\'\'(t)" title="{y}\'\'(t)" border="0" /></a>*
+% Respuesta del sistema: y(t) = 1 - exp(-t)
+y = 1 - exp(-t);
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U(t)-K_{2}*y(t)-K_{1}*\frac{dy(t)}{dt}= m* {y}\'\'(t)"><img src="http://www.alciro.org/cgi/tex.cgi?U(t)-K_{2}*y(t)-K_{1}*\frac{dy(t)}{dt}= m* {y}\'\'(t)" title="U(t)-K_{2}*y(t)-K_{1}*\frac{dy(t)}{dt}= m* {y}\'\'(t)" border="0" /></a>
+% Crear figura
+figure;
+plot(t, r, 'k', 'LineWidth', 1.5); % Entrada escalón (r(t))
+hold on;
+plot(t, y, 'k', 'LineWidth', 1.5); % Respuesta del sistema (y(t))
+
+% Línea vertical en t = 5
+xline(5, 'k--');
+
+% Anotaciones
+text(1, 0.5, 'y(t) = 1 - exp(-t)', 'FontSize', 10);
+text(6.2, 1.02, 'r(t) = 1', 'FontSize', 10);
+
+% Etiquetas y títulos
+xlabel('tiempo (segundos)');
+ylabel('Amplitud');
+title('Régimen transitorio (natural) y de estado estable (forzado)');
+
+% Ajuste de ejes
+axis([0 10 0 1.2]);
+grid on;
+
+% Anotaciones adicionales
+text(1.5, -0.1, 'Régimen transitorio', 'FontSize', 10);
+text(6.5, -0.1, 'Régimen de estado estable', 'FontSize', 10);
+
+% Opcional: eliminar borde superior para estilo similar
+box off;
+
+```
+![image](https://github.com/user-attachments/assets/599cb855-5b80-4019-86f8-50f459d0ea40)
+
+## CONSTANTE DE TIEMPO DEL SISTEMA
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=y(t)= AK(1-e^{\frac{-t}{\tau }}"><img src="http://www.alciro.org/cgi/tex.cgi?y(t)= AK(1-e^{\frac{-t}{\tau }}" title="y(t)= AK(1-e^{\frac{-t}{\tau }}" border="0" /></a>
+
+| t  | Y(t)                |
+|----|---------------------|
+| T  | X(s)                |
+| 2T | sX(s)-x(0)          |
+| 3T | s^2X(s)-sx(0)-x'(0) |
+
+```
+
+A = 1;      % Amplitud del escalón
+K = 1;      % Ganancia
+tau = 1;    % Constante de tiempo
+
+t = 0:0.01:6*tau;
+y = A*K*(1 - exp(-t/tau));
+
+
+figure;
+plot(t, y, 'k', 'LineWidth', 1.5);
+hold on;
+
+% Marcar los puntos en t = n*tau (n=1..6)
+tau_vals = tau*(1:6);
+y_vals = A*K*(1 - exp(-tau_vals/tau));
+plot(tau_vals, y_vals, 'ko', 'MarkerFaceColor', 'r');
+
+
+y_percent = [0.632, 0.865, 0.950, 0.982, 0.993, 0.9975]*A*K;
+for i = 1:6
+    plot([0 tau_vals(i)], [y_vals(i) y_vals(i)], 'k--');
+    plot([tau_vals(i) tau_vals(i)], [0 y_vals(i)], 'k--');
+end
+
+
+for i = 1:6
+    text(tau_vals(i), y_vals(i) + 0.03, ...
+        sprintf('%.1f%%', y_percent(i)*100), ...
+        'FontSize', 9, 'HorizontalAlignment', 'left');
+end
+
+xlabel('t (segundos)');
+ylabel('y(t)');
+title('Respuesta de sistema de primer orden a entrada escalón');
+grid on;
+axis([0 6*tau 0 1.1*A*K]);
+
+% Tabla en consola
+T = tau*(1:6)';
+Y = y_vals';
+tabla = table(T, Y, 'VariableNames', {'t', 'Y(t)'});
+disp(tabla);
+```
 
 # SISTEMAS ACOPLADOS
 ![image](https://github.com/user-attachments/assets/7f725a87-a5f6-47b9-b37a-687dfb7cbc24)
