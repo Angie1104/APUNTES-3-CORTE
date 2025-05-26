@@ -363,12 +363,43 @@ Cofactores:
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta_{2}= 1-(L_{2}+L_{3})+(L_{2}L_{3})"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta_{2}= 1-(L_{2}+L_{3})+(L_{2}L_{3})" title="\Delta_{2}= 1-(L_{2}+L_{3})+(L_{2}L_{3})" border="0" /></a>
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\Delta_{3}= 1-(L_{1}+L_{2})+(L_{1}L_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?\Delta_{3}= 1-(L_{1}+L_{2})+(L_{1}L_{2})" title="\Delta_{3}= 1-(L_{1}+L_{2})+(L_{1}L_{2})" border="0" /></a>
-## 2. Amortiguadores
-Un amortiguador es un elemento mecánico que genera una fuerza proporcional a la velocidad relativa entre sus extremos o también son aquellos que trabajan por fricción y se representa como: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})"><img src="http://www.alciro.org/cgi/tex.cgi?F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" title="F=b\dot{x}= b(\dot{x_{1}}-\dot{x}_{2})" border="0" /></a> donde "b" es la constante de fricción viscosa
+# SISTEMAS DE PRIMER ORDEN
+## ECUACIONES DE PRIMER ORDEN 
+La estructura general de una ecuación de primer orden
+es:
 
-![image](https://github.com/user-attachments/assets/86f11c8a-0de9-40cc-86e3-30485113d61e)
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=a\dot{y}(t) + b y(t) = c u(t)"><img src="http://www.alciro.org/cgi/tex.cgi?a\dot{y}(t) + b y(t) = c u(t)" title="a\dot{y}(t) + b y(t) = c u(t)" border="0" /></a>
 
+Hallando la función de transferencia tenemos:
 
+Aplicando transformada de LaPlace:
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=a s Y(s) + b Y(s)= c U(s)"><img src="http://www.alciro.org/cgi/tex.cgi?a s Y(s) + b Y(s) = c U(s)" title="a s Y(s) + b Y(s) = c U(s)" border="0" /></a>
+
+Despejando salida / Entrada
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)} = \frac{c}{a s + b}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)} = \frac{c}{a s + b}" title="\frac{Y(s)}{U(s)} = \frac{c}{a s + b}" border="0" /></a>
+
+* Las funciones de transferencia de primer orden provienen de una ecuación diferencial de primer orden
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)}=\frac{c}{as+b}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)}=\frac{c}{as+b}" title="\frac{Y(s)}{U(s)}=\frac{c}{as+b}" border="0" /></a>
+
+* Los parámetros a, b y c son los parámetros físicos del sistema que definen la dinámica del sistema
+
+### Ejemplo
+![image](https://github.com/user-attachments/assets/cc192f58-f36d-4158-ad66-32085a92add8)
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=
+a\dot{y}(t) + b y(t) = c u(t)"><img src="http://www.alciro.org/cgi/tex.cgi?a\dot{y}(t) + b y(t) = c u(t)" title="a\dot{y}(t) + b y(t) = c u(t)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)} = \frac{c}{a s + b}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)} = \frac{c}{a s + b}" title="\frac{Y(s)}{U(s)} = \frac{c}{a s + b}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=R_1 A_1 \frac{dh_{1}}{d t} = R_{1}q_{i}{ - h_{1}"><img src="http://www.alciro.org/cgi/tex.cgi?R_1 A_1 \frac{dh_{1}}{d t} = R_{1}q_{i}{ - h_{1}" title="R_1 A_1 \frac{dh_{1}}{d t} = R_{1}q_{i}{ - h_{1}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{H_1(s)}{Q_i(s)} = \frac{R_1}{R_1 A_1 s + 1}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{H_1(s)}{Q_i(s)} = \frac{R_1}{R_1 A_1 s + 1}" title="\frac{H_1(s)}{Q_i(s)} = \frac{R_1}{R_1 A_1 s + 1}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=a = R_{1} A_{1},\\
+b = 1\\c = R_{1}"><img src="http://www.alciro.org/cgi/tex.cgi?a = R_{1} A_{1},\\b = 1\\c = R_{1}" title="a = R_{1} A_{1},\\b = 1\\c = R_{1}" border="0" /></a>
 ## 3. Tipos de fricción
 > *Fricción en seco:*
 Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie lubricada.
