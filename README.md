@@ -519,12 +519,14 @@ box off;
 ## CONSTANTE DE TIEMPO DEL SISTEMA
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=y(t)= AK(1-e^{\frac{-t}{\tau }}"><img src="http://www.alciro.org/cgi/tex.cgi?y(t)= AK(1-e^{\frac{-t}{\tau }}" title="y(t)= AK(1-e^{\frac{-t}{\tau }}" border="0" /></a>
 
-| t  | Y(t)                |
-|----|---------------------|
-| T  | X(s)                |
-| 2T | sX(s)-x(0)          |
-| 3T | s^2X(s)-sx(0)-x'(0) |
-
+| t  | Y(t)     |
+|----|----------|
+| T  | 0.632*AK |
+| 2T | 0.864*AK |
+| 3T | 0.950*AK |
+| 4T | 0.981*AK |
+| 5T | 0.993*AK |
+| 6T | 0.997*AK |
 ```
 
 A = 1;      % Amplitud del escalón
@@ -571,26 +573,78 @@ tabla = table(T, Y, 'VariableNames', {'t', 'Y(t)'});
 disp(tabla);
 ```
 
-# SISTEMAS ACOPLADOS
-![image](https://github.com/user-attachments/assets/7f725a87-a5f6-47b9-b37a-687dfb7cbc24)
+![image](https://github.com/user-attachments/assets/36c2287c-d4b0-4f1f-9de2-4e7fcd1f0459)
 
-Para este ejemplo hay que tener en cuenta que la distancia de la enlongación del resorte 2 depende del movimiento de ambas masas, para esto tenemos que hacer dos diagramas de cuerpo libre uno para cada masa.
+## RESPUESTA A UNA ENTRADA RAMPA 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)=\frac{AK}{s^{2}(\tau s+1)}"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)=\frac{AK}{s^{2}(\tau s+1)}" title="Y(s)=\frac{AK}{s^{2}(\tau s+1)}" border="0" /></a>
 
-MASA 1:
+* Al desarrollar las fracciones parciales:
 
-![image](https://github.com/user-attachments/assets/a5cfa9ca-585a-4fa7-a2ab-a6b10568b360)
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s)=AK(\frac{1}{s^{2}}+\frac{1\tau }{s}+\frac{\tau ^{2}}{\tau s+1})"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s)=AK(\frac{1}{s^{2}}+\frac{1\tau }{s}+\frac{\tau ^{2}}{\tau s+1})" title="Y(s)=AK(\frac{1}{s^{2}}+\frac{1\tau }{s}+\frac{\tau ^{2}}{\tau s+1})" border="0" /></a>
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U-FR1-FR2-Ff= m1*am1"><img src="http://www.alciro.org/cgi/tex.cgi?U-FR1-FR2-Ff= m1*am1" title="U-FR1-FR2-Ff= m1*am1" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L^{-1}{Y(s)}=y(t)=AK(t-\tau +\tau e^{-\frac{t}{\tau }})"><img src="http://www.alciro.org/cgi/tex.cgi?L^{-1}{Y(s)}=y(t)=AK(t-\tau +\tau e^{-\frac{t}{\tau }})" title="L^{-1}{Y(s)}=y(t)=AK(t-\tau +\tau e^{-\frac{t}{\tau }})" border="0" /></a>
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=U(t)-K1*X_{1}(t)- K2*(X_{1}(t)-X_{2}(t))-\frac{b*d(X_{1}(t)-X_{2}(t))}{dt}= m1*\frac{d^2X_{1}(t)}{dt^2}"><img src="http://www.alciro.org/cgi/tex.cgi?U(t)-K1*X_{1}(t)- K2*(X_{1}(t)-X_{2}(t))-\frac{b*d(X_{1}(t)-X_{2}(t))}{dt}= m1*\frac{d^2X_{1}(t)}{dt^2}" title="U(t)-K1*X_{1}(t)- K2*(X_{1}(t)-X_{2}(t))-\frac{b*d(X_{1}(t)-X_{2}(t))}{dt}= m1*\frac{d^2X_{1}(t)}{dt^2}" border="0" /></a>
+## RESPUESTA A LA RAMPA UNITARIA
+![image](https://github.com/user-attachments/assets/894b2a6b-d0ab-4bb4-8303-0297ef596d9e)
 
-MASA 2:
+## ANALISIS DINAMICO DE LA RESPUESTA A LA RAMPA
 
-![image](https://github.com/user-attachments/assets/c2b5b66e-e713-4e36-a002-bebd42569344)
+| t  | Y(t)      |
+|----|-----------|
+| T  | 1.3679*AK |
+| 2T | 2.1353*AK |
+| 3T | 3.0498*AK |
+| 4T | 4.0183*AK |
+| 5T | 5.0067*AK |
+| 6T | 6.0025*AK |
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=FR2+Ff-FR3= m2*am2"><img src="http://www.alciro.org/cgi/tex.cgi?FR2+Ff-FR3= m2*am2" title="FR2+Ff-FR3= m2*am2" border="0" /></a>
+```
+% Parámetros
+A = 1;
+K = 1;
+tau = 1;
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=K2*(X_{1}(t)-X_{2}(t))+b*\frac{d(X_{1}(t)-X_{2}(t))}{dt}-K3*X_{2}(t)= m2*\frac{d^2X_{2(t)}}{dt^2}"><img src="http://www.alciro.org/cgi/tex.cgi?K2*(X_{1}(t)-X_{2}(t))+b*\frac{d(X_{1}(t)-X_{2}(t))}{dt}-K3*X_{2}(t)= m2*\frac{d^2X_{2(t)}}{dt^2}" title="K2*(X_{1}(t)-X_{2}(t))+b*\frac{d(X_{1}(t)-X_{2}(t))}{dt}-K3*X_{2}(t)= m2*\frac{d^2X_{2(t)}}{dt^2}" border="0" /></a>
+% Vector de tiempo para graficar
+t = 0:0.01:6*tau;
+
+% Entrada rampa
+r = t;
+
+% Respuesta del sistema a entrada rampa
+c = A*K*(t - tau + tau*exp(-t/tau));
+
+% Gráfica
+figure;
+plot(t, r, 'k--', 'LineWidth', 1.5); hold on;
+plot(t, c, 'k', 'LineWidth', 1.5);
+xlabel('t');
+ylabel('r(t), c(t)');
+title('Respuesta de un sistema de primer orden a una entrada rampa');
+legend('Entrada rampa r(t) = t', 'Salida c(t)');
+grid on;
+
+% Evaluar en múltiplos de tau
+T = tau * (1:6)';
+Y = (T + tau * exp(-T/tau)) * A * K;
+
+% Mostrar tabla en consola
+tabla = table(T, Y, 'VariableNames', {'t', 'Y(t)'});
+disp(tabla);
+
+% Dibujar puntos y etiquetas
+plot(T, Y, 'ro', 'MarkerFaceColor', 'r');
+for i = 1:length(T)
+    text(T(i), Y(i)+0.2, sprintf('%.2f', Y(i)), 'FontSize', 9, ...
+        'HorizontalAlignment', 'center');
+end
+
+% Cálculo de pendiente en zona lineal
+m = (4*tau + tau*exp(-4)) * A * K - (3*tau + tau*exp(-3)) * A * K;
+m = m / (tau); % ya que (5t - 4t) = t
+fprintf('Pendiente en la zona lineal: m = %.4f\n', m);
+```
+
+![image](https://github.com/user-attachments/assets/4b1bc9fa-ea50-479b-8e41-966bf9787a78)
 
 # SISTEMA ROTACIONAL
 Es un fenomeno mecanico pero la naturalez del movimiento cambia y ahora pasa a ser movimiento angular.
