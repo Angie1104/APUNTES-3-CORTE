@@ -400,16 +400,19 @@ a\dot{y}(t) + b y(t) = c u(t)"><img src="http://www.alciro.org/cgi/tex.cgi?a\dot
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=a = R_{1} A_{1},\\
 b = 1\\c = R_{1}"><img src="http://www.alciro.org/cgi/tex.cgi?a = R_{1} A_{1},\\b = 1\\c = R_{1}" title="a = R_{1} A_{1},\\b = 1\\c = R_{1}" border="0" /></a>
-## 3. Tipos de fricción
-> *Fricción en seco:*
-Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie lubricada.
-![image](https://github.com/user-attachments/assets/a8aed297-be9f-4045-a422-78190c1fc11e)
 
->*Friccion por rodamiento*: Es la fuerza que se opone al movimiento de un cuerpo que rueda sobre una superficie
-![image](https://github.com/user-attachments/assets/a92a3e62-eb53-488a-a020-9c7fda001588)
+## FORMA CANONICA DE LOS SISTEMAS DE PRIMER ORDEN 
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)} = \frac{c}{a s + b}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)} = \frac{c}{a s + b}" title="\frac{Y(s)}{U(s)} = \frac{c}{a s + b}" border="0" /></a>
 
-## 4. Sistemas Masa-Resorte-Amortiguador
-Para estos modelos utilizamos: 
+* Esta forma no permite identificar directamente los parámetros temporales del sistema
+* Para esto en control se prefiere la forma canónica
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)} = \frac{c}{as + b} = \frac{\frac{c}{b}}{\frac{a}{b}s + 1}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)} = \frac{c}{as + b} = \frac{\frac{c}{b}}{\frac{a}{b}s + 1}" title="\frac{Y(s)}{U(s)} = \frac{c}{as + b} = \frac{\frac{c}{b}}{\frac{a}{b}s + 1}" border="0" /></a>
+
+* La forma canónica considera:
+* <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\tau= \frac{a}{b}"><img src="http://www.alciro.org/cgi/tex.cgi?\tau= \frac{a}{b}" title="\tau= \frac{a}{b}" border="0" /></a> Constante de tiempo <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=K= \frac{c}{b}"><img src="http://www.alciro.org/cgi/tex.cgi?K= \frac{c}{b}" title="K= \frac{c}{b}" border="0" /></a>  Ganancia Estática
+
+## 4. Sistemas Masa-Resorte-AmortiguadPara estos modelos utilizamos: 
 
 * Ley de Hooke: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=FR= K_{2}*X"><img src="http://www.alciro.org/cgi/tex.cgi?FR= K_{2}*X" title="FR= K_{2}*X" border="0" /></a>
 
