@@ -712,8 +712,12 @@ Su representación en el dominio de Laplace facilita el análisis algebraico y l
 * Respuesta al Escalón y a la Rampa:
 Para sistemas de primer orden, la respuesta al escalón se caracteriza por un crecimiento exponencial hacia un valor final.
 La respuesta a una rampa muestra una zona transitoria seguida de una zona lineal, cuya pendiente se iguala al producto, facilitando la estimación de la ganancia del sistema.
+* Importancia de la Transformada de Laplace:La transformada de Laplace transforma ecuaciones diferenciales en algebraicas, permitiendo trabajar con sistemas complejos de forma más eficiente. Además, permite obtener fácilmente la respuesta en frecuencia, y realizar análisis de estabilidad y diseño de controladores.
+* El uso de diagramas de bloques permite representar visualmente la dinámica interna de un sistema, facilitando su análisis mediante operaciones de álgebra de bloques. Estos diagramas muestran claramente las relaciones entre entradas, salidas y trayectorias intermedias del sistema.
+* La regla de Mason es una herramienta efectiva para calcular la función de transferencia de sistemas complejos representados mediante múltiples trayectorias y lazos de realimentación. A través de esta regla, se puede obtener una expresión algebraica general de la salida respecto a la entrada sin necesidad de simplificar manualmente el diagrama.
 ## Referencias
 * Ogata, K. (2010). Ingeniería de Control Moderna (5ª ed.). Pearson Educación.
 * Dorf, R. C., & Bishop, R. H. (2011). Modern Control Systems (12th ed.). Prentice Hall.
 * MathWorks. (2023). MATLAB & Simulink Documentation. Recuperado de: https://www.mathworks.com/help/
 * Franklin, G. F., Powell, J. D., & Emami-Naeini, A. (2015). Feedback Control of Dynamic Systems (7th ed.). Pearson.
+* Lathi, B. P. (2005). Linear Systems and Signals (2ª ed.). Oxford University Press.
