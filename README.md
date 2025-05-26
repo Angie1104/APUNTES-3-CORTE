@@ -412,13 +412,36 @@ b = 1\\c = R_{1}"><img src="http://www.alciro.org/cgi/tex.cgi?a = R_{1} A_{1},\\
 * La forma canónica considera:
 * <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\tau= \frac{a}{b}"><img src="http://www.alciro.org/cgi/tex.cgi?\tau= \frac{a}{b}" title="\tau= \frac{a}{b}" border="0" /></a> Constante de tiempo <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=K= \frac{c}{b}"><img src="http://www.alciro.org/cgi/tex.cgi?K= \frac{c}{b}" title="K= \frac{c}{b}" border="0" /></a>  Ganancia Estática
 
-## 4. Sistemas Masa-Resorte-AmortiguadPara estos modelos utilizamos: 
+* Por lo tanto:
 
-* Ley de Hooke: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=FR= K_{2}*X"><img src="http://www.alciro.org/cgi/tex.cgi?FR= K_{2}*X" title="FR= K_{2}*X" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)} = \frac{K}{\tau s + 1}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)} = \frac{K}{\tau s + 1}" title="\frac{Y(s)}{U(s)} = \frac{K}{\tau s + 1}" border="0" /></a>
 
-* Fricción viscosa: <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Ff= K_{1}Vm"><img src="http://www.alciro.org/cgi/tex.cgi?Ff= K_{1}Vm" title="Ff= K_{1}Vm" border="0" /></a>
+### Ejemplo
+* Identificar constante de tiempo y ganancia estática
 
-* Leyes de Newton= <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F= m*a"><img src="http://www.alciro.org/cgi/tex.cgi?F= m*a" title="F= m*a" border="0" /></a>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{Y(s)}{U(s)} = \frac{5}{2s + 16}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{Y(s)}{U(s)} = \frac{5}{2s + 16}" title="\frac{Y(s)}{U(s)} = \frac{5}{2s + 16}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{5}{2(s + 8)}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{5}{2(s + 8)}" title="\frac{5}{2(s + 8)}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{\frac{5}{16}}{\frac{2}{16}s + 1}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{\frac{5}{16}}{\frac{2}{16}s + 1}" title="\frac{\frac{5}{16}}{\frac{2}{16}s + 1}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\tau = 0.125,\quad K = 0.3125"><img src="http://www.alciro.org/cgi/tex.cgi?\tau = 0.125,\quad K = 0.3" title="\tau = 0.125,\quad K = 0.3125" border="0" /></a>
+## RESPUESTA TEMPORAL DE UN SISTEMA DE PRIMER ORDEN ANTE UNA ENTRADA ESCALÓN
+*  Despejando la salida para averiguar la respuesta se tiene:
+
+![image](https://github.com/user-attachments/assets/3928e396-0f70-47c0-bf18-126ab464941c)
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s) = \frac{AK}{s(\tau s + 1)}"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s) = \frac{AK}{s(\tau s + 1)}" title="Y(s) = \frac{AK}{s(\tau s + 1)}" border="0" /></a>
+
+* Aplicando fracciones parciales
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=Y(s) = \frac{C_1}{s} + \frac{C_2}{s + \frac{1}{\tau}} = \frac{AK}{s} - \frac{AK}{s + \frac{1}{\tau}}"><img src="http://www.alciro.org/cgi/tex.cgi?Y(s) = \frac{C_1}{s} + \frac{C_2}{s + \frac{1}{\tau}} = \frac{AK}{s} - \frac{AK}{s + \frac{1}{\tau}}" title="Y(s) = \frac{C_1}{s} + \frac{C_2}{s + \frac{1}{\tau}} = \frac{AK}{s} - \frac{AK}{s + \frac{1}{\tau}}" border="0" /></a>
+
+* Al aplicar transformada inversa de LaPlace
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L^{-1}{Y(s)}"><img src="http://www.alciro.org/cgi/tex.cgi?L^{-1}{Y(s)}" title="L^{-1}{Y(s)}" border="0" /></a> se tiene:
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\mathcal{L}^{-1}\{Y(s)\} = y(t) = AK \left(1 - e^{-\frac{t}{\tau}}\right)"><img src="http://www.alciro.org/cgi/tex.cgi?\mathcal{L}^{-1}\{Y(s)\} = y(t) = AK \left(1 - e^{-\frac{t}{\tau}}\right)" title="\mathcal{L}^{-1}\{Y(s)\} = y(t) = AK \left(1 - e^{-\frac{t}{\tau}}\right)" border="0" /></a>
+
 
 ### Ejemplo
 
